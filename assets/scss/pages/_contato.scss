@@ -1,0 +1,211 @@
+#page-contato {
+    padding-bottom: 90px;
+
+    #page-title {
+        h1 {
+            text-align: center;
+            margin: 0 0 5px 0;
+        }
+    }
+
+    #page-body {
+        .form-group {
+            margin-bottom: 25px;
+
+            label {
+                color: $cores-sistema-cinza;
+                font-family: $fontes-opensans-regular;
+                font-size: 14px;
+                line-height: 1.1;
+                text-align: left;
+            }
+
+            .form-control {
+                color: $cores-sistema-cinza;
+                background-color: $cores-primarias-branco;
+                border: 1px solid #b8b8b8;
+                border-radius: 0px;
+                width: 100%;
+            }
+
+            .validacaocampos {
+                color: red;
+            }
+        }
+
+        .cartao-contato {
+            background: $cores-primarias-vermelho;
+            margin: 30px 0 30px;
+            padding: 25px 30px;
+
+            &--titulo {
+                color: $cores-primarias-branco;
+                font-size: 16px;
+                font-weight: 300;
+                text-transform: uppercase;
+                line-height: 1.36;
+                text-align: left !important;
+                margin: 0 0 27px 0;
+            }
+
+            &--conteudo {
+                position: relative;
+                border-bottom: 1px solid rgba(255,255,255,.1);
+                position: relative;
+                margin-top: 10px;
+                padding: 0 0 15px 0px;
+                word-wrap: break-word;
+
+                &:last-child {
+                    border-bottom: none;
+                    padding: 0;
+                }
+
+                .icon-C-seLocalizacao, .icon-C-sePhone, .icon-C-seEmail {
+                    font-size: 25px;
+                    position: absolute;
+                    left: 5px;
+                    top: 15px;
+                    display: block;
+                }
+
+                .icon-C-sePhone {
+                    top: 5px;
+                    font-size: 20px;
+                }
+
+                .icon-C-seEmail {
+                    font-size: 20px;
+                    top: 5px;
+                }
+            }
+
+            &--texto {
+                color: $cores-primarias-branco;
+                font-family: $fontes-opensans-regular;
+                font-size: 14px;
+                line-height: 1.18;
+                text-align: left;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+@media ( max-width : 575px ) {
+    #page-contato {
+        #page-title {
+            h1 {
+                font-size: 22px;
+                //margin: 30px 0
+            }
+        }
+        #page-body {
+            form {
+                margin: 0 0 30px;
+            }
+            .cartao-contato {
+                background: $cores-primarias-vermelho;
+                margin: 50px 0 80px;
+                padding: 25px 30px;
+                &--titulo {
+                    font-size: 14px;
+                }
+                &--conteudo {
+                    .icon-C-seLocalizacao, .icon-C-sePhone, .icon-C-seEmail {
+                        font-size: 18px;
+                    }
+                    .icon-C-seEmail {
+                        font-size: 16px;
+                        top: 9px;
+
+                    }
+                    
+                }
+                &--texto {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    
+}
+
+@media ( min-width : 576px ) and ( max-width : 767px )  {
+    #page-contato {
+        #page-title {
+            h1 {
+                font-size: 22px;
+                //margin: 30px 0
+            }
+        }
+        #page-body {
+            form {
+                margin: 0 0 30px;
+            }
+            .cartao-contato {
+                background: $cores-primarias-vermelho;
+                margin: 50px 0 80px;
+                padding: 25px 30px;
+                &--titulo {
+                    font-size: 14px;
+                }
+                &--conteudo {
+                    .icon-C-seLocalizacao, .icon-C-sePhone, .icon-C-seEmail {
+                        font-size: 18px;
+                    }
+                    .icon-C-seEmail {
+                        font-size: 16px;
+                        top: 9px;
+
+                    }
+                    
+                }
+                &--texto {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media ( min-width : 768px ) and ( max-width : 991px )  {
+    #page-contato {
+        #page-title {
+            h1 {
+                font-size: 22px;
+                //margin: 30px 0
+            }
+        }
+        #page-body {
+            form {
+                margin: 0 0 30px;
+            }
+            .cartao-contato {
+                background: $cores-primarias-vermelho;
+                margin: 50px 0 80px;
+                padding: 25px 30px;
+                &--titulo {
+                    font-size: 14px;
+                }
+                &--conteudo {
+                    .icon-C-seLocalizacao, .icon-C-sePhone, .icon-C-seEmail {
+                        font-size: 18px;
+                    }
+                    .icon-C-seEmail {
+                        font-size: 16px;
+                        top: 9px;
+
+                    }
+                    
+                }
+                &--texto {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

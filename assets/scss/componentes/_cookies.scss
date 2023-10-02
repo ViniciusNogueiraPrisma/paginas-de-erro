@@ -1,0 +1,38 @@
+.box-cookies {
+	/* border: 1px solid #707070; */
+	box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+	background: #ffffff;
+	padding: 16px;
+	height: auto;
+	width: 380px;
+	z-index: 100;
+	position: fixed;
+	left: 50px;
+	bottom: 80px;
+	.fechar {
+		display: none;
+	}
+	@media (max-width: 767px) {
+		width: 100%;
+		left: 0;
+		bottom: 0;
+	}
+	small {
+		display: block;
+		margin-bottom: 8px;
+		font-size: 11px;
+		line-height: 18px;
+		a {
+			color: #ee1d23;
+		}
+	}
+	.btn-fechar {
+		cursor: pointer;
+		color: #ffffff !important;
+		padding: 4px 32px;
+		font-size: 14px;
+		border-radius: 30px;
+		background-color: #ee1d23;
+		border-color: #ee1d23;
+	}
+}

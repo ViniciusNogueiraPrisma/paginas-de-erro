@@ -1,0 +1,248 @@
+.logo {
+  img {
+    width: 156px;
+  }
+}
+
+.section-destaque-calendar-resultados {
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+  .row {
+    > div {
+      display: flex;
+      flex-direction: column;
+      background-color: var(--pure-white);
+      padding: 64px 0px;
+
+      &:nth-child(1) {
+        padding-right: 30px;
+        background-color: var(--grey-scale-01);
+
+        &::before {
+          content: "";
+          height: 100%;
+          width: 1400px;
+          left: -1400px;
+          top: 0;
+          position: absolute;
+          background-color: var(--grey-scale-01);
+        }
+      }
+
+      &:nth-child(2) {
+        padding-left: 30px;
+      }
+
+      @media (max-width: 991px) {
+        padding: 0 15px !important;
+
+        &:nth-child(2) {
+          margin-top: 38px;
+        }
+      }
+    }
+
+    .footer-central-result-home {
+      display: flex;
+      align-items: center;
+      gap: 35px;
+
+      margin-top: auto;
+
+      a {
+        font-size: rem(14);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.section-create-mailing {
+  padding-top: 56px;
+  padding-bottom: 56px;
+
+  h3 {
+    margin-top: 0;
+    text-align: center;
+    color: var(--text-secondary-01-default);
+    margin-bottom: 8px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .form-mailing-home {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+    @media (max-width: 575px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    margin-top: 40px;
+
+    .div-input {
+      max-width: 240px;
+      background: transparent !important;
+
+      @media (max-width: 575px) {
+        max-width: 300px;
+      }
+    }
+
+    .primary-button {
+      padding-top: 6px;
+      padding-bottom: 6px;
+
+      @media (max-width: 575px) {
+        max-width: 300px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.section-create-mailing-bg-blue {
+  background-image: url("../images/bg-mailing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (max-width: 991px) {
+    background-color: var(--primary-2);
+    background-image: none;
+  }
+
+  h3 {
+    color: var(--text-white);
+    margin-bottom: 8px;
+    margin-top: 0;
+  }
+
+  p {
+    color: var(--text-white);
+  }
+
+  .form-div-right {
+    @media (min-width: 991px) {
+      padding-left: 10px;
+    }
+  }
+
+  .form-mailing-home {
+    margin-top: 30px;
+
+    .div-input {
+      max-width: 100%;
+      margin-bottom: 16px;
+
+      input {
+        background-color: var(--pure-white);
+      }
+    }
+
+    .primary-button {
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
+  }
+}
+
+.section-razoes-investir {
+  background-image: url("../images/bg-razoesInvestir.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: var(--text-white);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p,
+  a {
+    color: var(--text-white);
+  }
+}
+
+.section-flex-destaques-footer-home {
+  padding: 0;
+
+  .flex-destaques-footer-home {
+    display: flex;
+
+    @media (max-width: 991px) {
+      flex-wrap: wrap;
+    }
+
+    .item-flex-home {
+      width: calc(100% / 3);
+
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+
+      &::before {
+        content: "";
+        background-color: rgba(0, 0, 0, 0.4);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 0;
+        transition: 0.3s ease-in;
+      }
+
+      &:hover {
+        &::before {
+          content: "";
+          background-color: rgba(0, 0, 0, 0.5);
+        }
+      }
+
+      > div {
+        padding: 64px 30px;
+        position: relative;
+        z-index: 1;
+
+        .secondary-button {
+          border-color: var(--text-white);
+          color: var(--text-white);
+          margin-top: 40px;
+
+          &:hover {
+            background-color: var(--text-white);
+            color: var(--pure-black);
+          }
+        }
+      }
+
+      @media (max-width: 991px) {
+        width: 100%;
+      }
+
+      img {
+        width: 56px;
+      }
+
+      h4 {
+        color: var(--text-white);
+        font-size: rem(20);
+        margin-top: 12px;
+        margin-bottom: 8px;
+      }
+
+      p {
+        color: var(--text-white);
+      }
+    }
+  }
+}

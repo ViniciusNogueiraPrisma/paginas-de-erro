@@ -1,0 +1,172 @@
+#card-banner {
+    background: #f4f4f4;
+    
+    .card {
+        background-color: #ffffff;
+        padding: 17px 0;
+        margin-bottom: 0;
+        margin-top: -65px;
+        z-index: 100;
+        &--body {
+            display:flex;
+            align-items: center;
+            &--itens {
+                display: flex;
+                width: 100%;
+                &--item {
+                    text-align: center;
+                    min-width: 141px;
+                    a {
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                    &--text {
+
+                        color: $cores-sistema-cinzaClaro;
+                        font-size: 13px;
+                        letter-spacing: .5px;
+
+                        line-height: 1.38;
+                        margin-top: 17px;
+                        margin-bottom: 0;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+.carrossel {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.p-banner{
+    gap: 12px;
+   /*
+    padding: 40px 40px 40px 20px !important;
+     */
+    font-size: 15px !important;
+    white-space: normal !important;
+    max-width: 170px !important;
+}
+
+.p-banner::before{
+    content: url("../img/logo-icone.png");
+    position: relative;
+    top: 1px;
+}
+
+
+
+.slick-dots {
+    li {
+        button {
+            width: 0;
+            height: 0;
+            padding: 0;
+        }
+    }
+}
+
+
+@media ( max-width : 1200px ) {
+    .p-banner{
+        font-size: 14px !important;
+    }
+}
+
+@media ( max-width : 768px ) {
+    .p-banner{
+        font-size: 10px !important;
+        padding: 25px 25px 25px 10px !important;
+        max-width: 140px !important;
+    }
+}
+
+@media ( max-width : 575px ) {
+    .p-banner{
+        font-size: 9px !important;
+        max-width: 110px !important;
+    }
+    .heightBanner{
+        height: 250px !important;
+    }
+    #card-banner {
+        .card {
+            margin-top: -39px;
+            padding: 17px 0 9px;
+            z-index: 29;
+            &--body {
+                &--itens {
+                    &--item {
+                        img {
+                            height: 48px;
+                        }
+                        &--text {
+                            font-size: 12px;
+                            margin-top: 4px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media ( max-width : 426px ) {
+    #card-banner {
+        .card {
+            margin-top: -25px;
+        }
+    }
+}
+
+@media ( min-width : 576px ) and ( max-width : 767px )  {
+    #card-banner {
+        .card {
+            margin-top: -39px;
+            padding: 17px 0 9px;
+            z-index: 29;
+            &--body {
+                &--itens {
+                    &--item {
+                        img {
+                            height: 48px;
+                        }
+                        &--text {
+                            font-size: 12px;
+                            margin-top: 4px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media ( min-width : 768px ) and ( max-width : 991px )  {
+    #card-banner {
+        .card {
+            margin-top: -39px;
+            padding: 17px 0 9px;
+            z-index: 29;
+            &--body {
+                &--itens {
+                    &--item {
+                        img {
+                            height: 48px;
+                        }
+                        &--text {
+                            font-size: 12px;
+                            margin-top: 4px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

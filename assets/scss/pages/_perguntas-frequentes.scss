@@ -1,0 +1,110 @@
+.btn-conheca {
+  background: #a7141a;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border-radius: 2px;
+  text-decoration: none;
+  color: white;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  /* margin-top: 40px !important; */
+}
+
+.btn-conheca img {
+  width: 13px;
+  height: 13px;
+}
+
+.btn-conheca:hover {
+  text-decoration: none;
+  color: white;
+}
+
+#page-perguntas-frequentes {
+  padding-bottom: 60px;
+
+  #conteudo {
+    h1 {
+      background-color: #808080;
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 1.88;
+      text-align: left;
+    }
+  }
+  #page-title {
+    h1 {
+      text-align: center;
+      margin: 0 0 5px 0;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  #page-perguntas-frequentes {
+    #page-title {
+      h1 {
+        font-size: 22px;
+        //margin: 30px 0 60px;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #page-perguntas-frequentes {
+    #page-title {
+      h1 {
+        font-size: 22px;
+        //margin: 30px 0 60px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #page-perguntas-frequentes {
+    #page-title {
+      h1 {
+        font-size: 22px;
+        //margin: 30px 0 60px;
+      }
+    }
+  }
+}
+
+#page-title,
+.page-title {
+  background: #475164;
+  /*padding: 50px 0;*/
+  margin-bottom: 50px;
+
+  .banner-interno {
+    padding: 50px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .container {
+    h1 {
+      color: #fff;
+      font-weight: bold;
+      letter-spacing: 7px;
+      text-transform: uppercase;
+
+      text-align: center;
+    }
+
+    p {
+      letter-spacing: 1px;
+      color: #fff;
+
+      text-align: center;
+    }
+  }
+}

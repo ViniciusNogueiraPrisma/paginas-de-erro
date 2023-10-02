@@ -1,0 +1,281 @@
+.footer {
+  background-color: var(--text-primary-01-var-1);
+  padding: 80px 0 24px;
+
+  margin-top: auto;
+
+  @media (max-width: 991px) {
+    padding-top: 44px;
+  }
+
+  .footer-top-content {
+    .flex-logo-redes {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 24px;
+
+      @media (max-width: 991px) {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      @media (max-width: 575px) {
+        align-items: center;
+      }
+    }
+
+    .right-side {
+      display: flex;
+      align-items: center;
+
+      > span {
+        display: block;
+        margin-right: 8px;
+        color: var(--text-white);
+      }
+
+      .list-redes-socais {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        margin-right: 40px;
+        padding-left: 0px;
+        margin-bottom: 0px;
+
+        @media (max-width: 991px) {
+          margin-bottom: 16px;
+        }
+
+        @media (max-width: 575px) {
+          margin-right: 0px;
+        }
+
+        li {
+          margin-bottom: 0px;
+        }
+      }
+
+      @media (max-width: 991px) {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+      }
+
+      @media (max-width: 575px) {
+        align-items: center;
+      }
+    }
+  }
+
+  .button-mapa-site {
+    display: none;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 12px;
+    padding: 0px;
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--text-white);
+
+    @media (max-width: 575px) {
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    span {
+      display: block;
+    }
+
+    @media (max-width: 991px) {
+      display: flex;
+    }
+  }
+
+  .flex-cotacoes-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--text-primary-01-var-2);
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    gap: 14px;
+
+    .iframe-cotacoes {
+      height: 27px;
+      flex: 1;
+
+      @media (max-width: 991px) {
+        order: 2;
+      }
+
+      iframe {
+        height: 27px;
+        width: 100%;
+        max-width: 400px;
+      }
+    }
+
+    .right-side-flex-cotacoes {
+      display: flex;
+      align-items: flex-start;
+      gap: 24px;
+      @media (max-width: 991px) {
+        order: 1;
+      }
+
+      button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: var(--text-white);
+      }
+
+      .button-mapa-site {
+        display: none;
+        align-items: center;
+        gap: 4px;
+
+        span {
+          display: block;
+        }
+
+        @media (max-width: 991px) {
+          display: flex;
+        }
+      }
+
+      .button-mapa-site-mobile {
+        transition: 0.3s ease-in-out;
+        &[aria-expanded="true"] {
+          transform: rotate(45deg);
+        }
+
+        @media (max-width: 991px) {
+          display: none;
+        }
+      }
+    }
+
+    .list-menu-footer {
+      display: flex;
+      align-items: flex-start;
+      gap: 24px;
+
+      @media (max-width: 575px) {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      > div {
+        h5 {
+          font-size: rem(12);
+          font-weight: 400;
+          color: var(--text-white);
+          margin-bottom: 0px;
+          font-family: var(--font-text-2);
+        }
+
+        > ul {
+          padding: 0px;
+          max-width: 150px;
+          margin-top: 10px;
+
+          li {
+            margin-bottom: 4px;
+
+            a {
+              color: var(--text-white);
+              font-size: rem(12);
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer-bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+
+    flex-wrap: wrap;
+
+    @media (max-width: 575px) {
+      flex-direction: column;
+    }
+
+    .direitos-reservados {
+      @media (max-width: 767px) {
+        flex: 100%;
+      }
+    }
+
+    p {
+      color: var(--text-white);
+      font-size: 12px;
+      margin: 0;
+    }
+
+    .byRiweb {
+      display: flex;
+      align-items: center;
+
+      span {
+        font-size: 12px;
+      }
+
+      img {
+        flex-shrink: 0;
+        margin-left: 12px;
+      }
+    }
+
+    .termos-condicoes {
+      display: flex;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+
+      @media (max-width: 575px) {
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      li {
+        a {
+          color: var(--text-white);
+          font-size: 12px;
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+        &:not(:last-child) {
+          a {
+            gap: 8px;
+            margin-right: 8px;
+
+            &::after {
+              content: "";
+              width: 1px;
+              height: 13px;
+              background-color: var(--text-white);
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}

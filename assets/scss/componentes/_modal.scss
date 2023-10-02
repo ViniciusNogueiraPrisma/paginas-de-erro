@@ -1,0 +1,89 @@
+.modal-content {
+    .modal-header {
+        border-bottom: none;
+        padding: 16px 16px 0;
+        .close {
+            color: #A7141A;
+            opacity: 1;
+            &:hover {
+                color: #A7141A;
+                text-decoration: none;
+                opacity: .5;
+            }
+        }
+    }
+    .modal-body {
+        padding: 0 65px 30px;
+        .modal-title {
+            color: #333333;
+            font-size: 30px;
+            font-weight: bold;
+            line-height: 1.4;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .form-group {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            input[type="text"], [type="email"], select, option {
+                background-color: #ffffff;
+                border: solid 1px #e6e6e6;
+                border-radius: 4px;
+                box-shadow: none;
+                color: #333333;
+                font-size: 14px;
+                line-height: 1.36;
+                margin: 0;
+                width: 100%;
+                &::placeholder {
+                    color: #333333;
+                    font-size: 14px;
+                    line-height: 1.36;
+                }
+            }
+        }
+        .btn-mailing {
+            background-color: #A7141A;
+            color: #ffffff;
+            float: right;
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 55px;
+            padding: 11px 46px;
+        }
+    }
+}
+
+@media ( max-width : 575px ) {
+    .modal-content {
+        .modal-body {
+            padding: 0 15px 15px;
+            .modal-title {
+                font-size: 26px;
+            }
+        }
+    }
+}
+
+@media ( min-width : 576px ) and ( max-width : 767px )  {
+    .modal-content {
+        .modal-body {
+            padding: 0 15px 15px;
+            .modal-title {
+                font-size: 26px;
+            }
+        }
+    }
+}
+
+@media ( min-width : 768px ) and ( max-width : 991px )  {
+    .modal-content {
+        .modal-body {
+            padding: 0 15px 15px;
+            .modal-title {
+                font-size: 26px;
+            }
+        }
+    }
+}

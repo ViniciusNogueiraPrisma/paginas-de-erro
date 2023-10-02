@@ -1,0 +1,59 @@
+body {
+    font-family: $fontes-opensans-regular;
+}
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.border-top {
+    border-top: 1px solid #da2a31!important;
+}
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.table td, .table th {
+    border-top: none;
+}
+.table-sm th, .table-sm td {
+    padding: 9px 13px;
+    border: none;
+    color: #666666;
+    text-align: left;
+}
+#tag-institucional {
+    border-top: 1px solid #e9e9e9;
+}
+
+.tag-home-overflow {
+    border-top: none!important;
+
+    //margin-bottom: -39px;
+
+    overflow: visible;
+    z-index: 200;
+    position: relative;
+}
+
+@media ( max-width : 575px ) {
+    .tag-home-overflow {
+
+        //margin-bottom: -36.5px;
+
+    }
+}
+
+@media ( min-width : 576px ) and ( max-width : 767px )  {
+    .tag-home-overflow {
+
+        //margin-bottom: -36.5px;
+
+    }
+}
+
+@media ( min-width : 768px ) and ( max-width : 991px )  {
+    .tag-home-overflow {
+        //margin-bottom: -35.5px;
+    }
+}

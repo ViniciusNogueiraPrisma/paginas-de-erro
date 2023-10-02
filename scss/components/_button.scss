@@ -1,0 +1,314 @@
+.primary-button,
+.secondary-button,
+.ghost-button {
+	box-shadow: none;
+
+	border: 1px solid;
+	border-radius: 4px;
+
+	padding: 12px 20px;
+
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+	font-size: rem(14);
+	font-weight: 400;
+	line-height: rem(24.8);
+
+	text-align: center;
+	text-decoration: none;
+
+	transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out !important;
+	transition-timing-function: cubic-bezier(0, 0, 0.2, 1) !important;
+
+	&.medium {
+		padding: 12px 16px;
+		font-size: rem(14);
+	}
+
+	&.small {
+		padding: 8px 16px;
+		font-size: rem(12);
+	}
+
+	&:disabled {
+		cursor: not-allowed;
+
+		border-color: var(--system-disabled);
+		color: var(--text-white);
+		background-color: var(--system-disabled);
+
+		&:hover,
+		&:focus {
+			border-color: inherit;
+			color: inherit;
+			background-color: inherit;
+		}
+	}
+
+	&.arrow {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+
+		&::after {
+			content: "";
+			background: url("../images/icons/icon-arrow-right-big.svg") no-repeat center;
+			width: 20px;
+			height: 20px;
+			font-family: var(--font-icomoon);
+			color: var(--text-white);
+		}
+	}
+
+	&.pdf {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+
+		&::after {
+			content: "";
+			background: url("../images/icons/icon-pdf-simple.svg") no-repeat center;
+			background-size: contain;
+			filter: brightness(100);
+			width: 16px;
+			height: 16px;
+			font-family: var(--font-icomoon);
+			color: var(--text-white);
+		}
+	}
+	
+	&.mobile-100 {
+		@media (max-width: 575px) {
+			width: 100%;
+		}
+	}
+}
+
+.primary-button {
+	border-color: var(--text-primary-01-var-2);
+	color: var(--pure-white);
+	background-color: var(--text-primary-01-var-2);
+
+	&:hover {
+		border-color: var(--text-primary-01-var-1);
+		color: var(--pure-white);
+		background-color: var(--text-primary-01-var-1);
+	}
+
+	&:active {
+		border-color: var(--primary-01-default);
+		background-color: var(--primary-01-default);
+		color: var(--pure-white);
+	}
+
+	&:focus {
+		border-color: var(--text-primary-01-var-2);
+		background-color: var(--text-primary-01-var-2);
+		color: var(--pure-white);
+	}
+
+	&:disabled {
+		cursor: not-allowed;
+
+		border-color: var(--system-disabled);
+		color: var(--text-white);
+		background-color: var(--system-disabled);
+
+		&:hover,
+		&:focus {
+			border-color: inherit;
+			color: inherit;
+			background-color: inherit;
+		}
+	}
+}
+
+.secondary-button {
+	border-color: var(--text-secondary-01-default);
+	color: var(--pure-white);
+	background-color: var(--text-secondary-01-default);
+
+	&:hover {
+		border-color: var(--text-secondary-01-var-1);
+		color: var(--pure-white);
+		background-color: var(--text-secondary-01-var-1);
+	}
+
+	&:active {
+		border-color: var(--secondary-01-var-3);
+		background-color: var(--text-white);
+		color: var(--secondary-01-var-3);
+	}
+
+	&:focus {
+		border-color: var(--text-secondary-01-default);
+		color: var(--pure-white);
+		background-color: var(--text-secondary-01-default);
+	}
+
+	&:disabled {
+		cursor: not-allowed;
+
+		border-color: var(--text-secondary-01-default);
+		color: var(--pure-white);
+		background-color: var(--text-secondary-01-default);
+
+		&:hover,
+		&:focus {
+			border-color: inherit;
+			color: inherit;
+			background-color: inherit;
+		}
+	}
+}
+
+.ghost-button {
+	border-color: var(--text-black);
+	color: var(--text-black) !important;
+	background-color: transparent;
+
+	&.arrow {
+		&::after {
+			filter: brightness(0) invert(0%) sepia(100%) saturate(30%) hue-rotate(140deg) brightness(89%) contrast(106%);
+		}
+	}
+
+	&:hover {
+		border-color: var(--text-black);
+		color: var(--text-black) !important;
+		background-color: var(--grey-scale-01);
+
+		&.arrow {
+			&::after {
+				filter: brightness(0) invert(0%) sepia(100%) saturate(30%) hue-rotate(140deg) brightness(89%)
+					contrast(106%);
+			}
+		}
+	}
+
+	&:active {
+		border-color: var(--text-black);
+		color: var(--pure-black) !important;
+		background-color: var(--text-grey-scale-03);
+
+		&.arrow {
+			&::after {
+				filter: brightness(0) invert(74%) sepia(86%) saturate(1619%) hue-rotate(35deg) brightness(114%)
+					contrast(102%);
+			}
+		}
+	}
+
+	&:focus {
+		border-color: var(--text-system-focus);
+		color: var(--text-black) !important;
+		background-color: transparent;
+
+		&.arrow {
+			&::after {
+				filter: brightness(0) invert(74%) sepia(86%) saturate(1619%) hue-rotate(35deg) brightness(114%)
+					contrast(102%);
+			}
+		}
+	}
+
+	&:disabled {
+		cursor: not-allowed;
+
+		border-color: var(--text-black);
+		color: var(--text-black) !important;
+		background-color: transparent;
+		opacity: 0.4;
+
+		&.arrow {
+			&::after {
+				filter: brightness(0) invert(0%) sepia(100%) saturate(30%) hue-rotate(140deg) brightness(89%)
+					contrast(106%);
+			}
+		}
+
+		&:hover,
+		&:focus {
+			border-color: inherit;
+			color: inherit;
+			background-color: inherit;
+		}
+	}
+
+	&.white {
+		border-color:  var(--text-black);
+		color: var(--pure-black) !important;
+		background-color:  var(--text-black);
+
+		&.arrow {
+			&::after {
+				filter: brightness(0) invert(0%) sepia(100%) saturate(30%) hue-rotate(140deg) brightness(89%)
+					contrast(106%);
+			}
+		}
+
+		&:hover {
+			border-color: var(--grey-scale-01);
+			color: var(--text-black) !important;
+			background-color: var(--grey-scale-01);
+
+			&.arrow {
+				&::after {
+					filter: brightness(0) invert(0%) sepia(100%) saturate(30%) hue-rotate(140deg) brightness(89%)
+						contrast(106%);
+				}
+			}
+		}
+
+		&:active {
+			border-color: var(--text-grey-scale-03);
+			color: var(--pure-black) !important;
+			background-color: var(--text-grey-scale-03);
+
+			&.arrow {
+				&::after {
+					filter: brightness(0) invert(74%) sepia(86%) saturate(1619%) hue-rotate(35deg) brightness(114%)
+						contrast(102%);
+				}
+			}
+		}
+
+		&:focus {
+			border-color: var(--text-system-focus);
+			color: var(--text-black) !important;
+			background-color: transparent;
+
+			&.arrow {
+				&::after {
+					filter: brightness(0) invert(74%) sepia(86%) saturate(1619%) hue-rotate(35deg) brightness(114%)
+						contrast(102%);
+				}
+			}
+		}
+
+		&:disabled {
+			cursor: not-allowed;
+
+			border-color:  var(--text-black);
+			color: var(--pure-black) !important;
+			background-color:  var(--text-black);
+			opacity: 0.4;
+
+			&.arrow {
+				&::after {
+					filter: brightness(0) invert(0%) sepia(100%) saturate(30%) hue-rotate(140deg) brightness(89%)
+						contrast(106%);
+				}
+			}
+
+			&:hover,
+			&:focus {
+				border-color: inherit;
+				color: inherit;
+				background-color: inherit;
+			}
+		}
+	}
+}

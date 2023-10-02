@@ -1,0 +1,138 @@
+#page-erro {
+    height: 100vh;
+    width: 100%;
+    display: block;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    #bg-erro, #bg-erro-red {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        .abraca-conteudo {
+            padding: 0px 10%;
+            .title {
+                font-size: 124px;
+                font-weight: bold;
+                line-height: 1;
+                color: #ffffff;
+                margin: 0;
+                padding: 0 0 15px;
+            }
+            .sub-title {
+                font-size: 27px;
+                font-weight: bold;
+                font-style: italic;
+                line-height: 1.37;
+                text-align: left;
+                color: #ffffff;
+                margin: 0;
+                padding: 0;
+            }
+            .desc {
+                width: 305px;
+                font-size: 16px;
+                line-height: 2;
+                letter-spacing: normal;
+                color: #ffffff;
+                margin: 0;
+                padding: 0 0 15px;
+            }
+            .botao {
+                &--normal {
+                    background-color: #ffffff;
+                    border-radius: 0;
+                    color: #b11116;
+                    font-size: 18px;
+                    font-weight: bold;
+                    line-height: 1.33;
+                    padding: 15px 45px;
+                }
+            }
+
+        }
+    }
+    #bg-erro {
+        background-image: url( '../img/bg-erro-overlay.png' );
+        background-size: cover;
+        background-position: center;
+        justify-content: flex-end;
+        left: 0;
+        top: 0;
+    }
+    #bg-erro-red {
+        background-color: #b11116;
+        top: 0;
+        left: 50%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #page-erro {
+        #bg-erro, #bg-erro-red {
+            width: 100%;
+            .abraca-conteudo {
+                padding: 0px 10%;
+                .sub-title {
+                    padding: 0 0 80px;
+                }
+            }
+        }
+        #bg-erro {
+            justify-content: center;
+        }
+        #bg-erro-red {
+            display: none;
+        }
+    }
+}
+
+/******************************************************************************************/
+/******************************************************************************************/
+/******************************************************************************************/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #page-erro {
+        #bg-erro, #bg-erro-red {
+            width: 100%;
+            .abraca-conteudo {
+                padding: 0px 10%;
+                .sub-title {
+                    padding: 0 0 80px;
+                }
+            }
+        }
+        #bg-erro {
+            justify-content: center;
+        }
+        #bg-erro-red {
+            display: none;
+        }
+    }
+}
+
+/******************************************************************************************/
+/******************************************************************************************/
+/******************************************************************************************/
+
+@media ( max-width: 575px ) {
+    #page-erro {
+        #bg-erro, #bg-erro-red {
+            width: 100%;
+            .abraca-conteudo {
+                padding: 0px 10%;
+                .sub-title {
+                    padding: 0 0 80px;
+                }
+            }
+        }
+        #bg-erro {
+            justify-content: center;
+        }
+        #bg-erro-red {
+            display: none;
+        }
+    }
+}

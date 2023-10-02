@@ -1,0 +1,68 @@
+.botao {
+    border: 1px solid transparent;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    @include btnTransition();
+    &--normal {
+        border-radius: 5px;
+        color: $cores-primarias-branco;
+        font-family: $fontes-opensans-regular;
+        font-size: 13px;
+        line-height: 1.38;
+        padding: 15px 35px;
+        text-align: center;
+        &--1 {
+            background: $cores-botoes-tag;
+            &:hover {
+                background: $cores-sistema-cinza;
+                color: $cores-primarias-branco;
+                text-decoration: none;
+            }
+        }
+        &--2 {
+            background: #000000;
+            &:hover {
+                background: $cores-sistema-cinza;
+                color: $cores-primarias-branco;
+                text-decoration: none;
+            }
+        }
+        // &--2 {
+        //     background: $cores-botoes-normal-2;
+        //     &:hover {
+        //         background: $cores-botoes-normalHover-2;
+        //     }
+        // }
+        // &--3 {
+        //     background: $cores-botoes-normal-3;
+        //     &:hover {
+        //         background: $cores-botoes-normalHover-3;
+        //     }
+        // }
+    }
+    &--tag {
+        background-color: rgba( $cores-botoes-tag, 0.75 );
+        margin: 0;
+        padding: 10px;
+        vertical-align: super;
+        &--texto {
+            position: absolute;
+            color: $cores-primarias-branco;
+            font-family: $fontes-opensans-regular;
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+            // margin-bottom: 20px;
+        }
+    }
+}
+
+@media ( max-width : 991px ) {
+    .botao--tag--texto {
+        font-size: 10px;
+    }
+}

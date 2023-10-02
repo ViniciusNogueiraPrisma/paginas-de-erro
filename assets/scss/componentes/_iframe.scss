@@ -1,0 +1,222 @@
+/*===========================================================
+ Common CSS
+============================================================*/
+
+.btn-conheca {
+  background: #a7141a;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border-radius: 2px;
+  text-decoration: none;
+  color: white;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  /* margin-top: 40px !important; */
+}
+
+.btn-conheca img {
+  width: 13px;
+  height: 13px;
+}
+
+.btn-conheca:hover {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 449px) {
+  #Top_bar #logo img {
+    width: 222px !important;
+  }
+}
+
+.table-responsive {
+  border-bottom: 1px solid #a7141a !important;
+  margin-bottom: 40px !important;
+}
+
+#iframe-cotacao {
+  font-family: "open_sansregular";
+  background-color: #8294aa;
+  padding: 6px 0 7px;
+  height: 48px;
+  // position: fixed;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  z-index: 100;
+  .cotacoes_abracador {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .cotacao_cliente {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .cotacoes_info {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 30px;
+        &:last-child {
+          margin-right: 0;
+        }
+        &--title {
+          color: #fdfdfd;
+          font-size: 18px;
+          font-weight: bold;
+          margin: 0 30px 0 0;
+          padding: 0;
+          text-transform: uppercase;
+        }
+        &--valor {
+          display: block;
+          &--desc,
+          &--number {
+            color: #fdfdfd;
+            text-transform: uppercase;
+            margin: 0;
+            padding: 0;
+          }
+          &--desc {
+            font-size: 11px;
+            font-weight: bold;
+          }
+          &--number {
+            font-size: 16px;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+  }
+  .enfoque {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    height: 100%;
+    &--desc {
+      font-size: 10px;
+      color: #fdfdfd;
+    }
+  }
+  .cotacoes_plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    a {
+      font-size: 26px;
+      line-height: 16px;
+      margin: 0;
+      padding: 0;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #iframe-cotacao {
+    .cotacoes_abracador {
+      text-align: center;
+    }
+  }
+}
+
+/******************************************************************************************/
+/******************************************************************************************/
+/******************************************************************************************/
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/******************************************************************************************/
+/******************************************************************************************/
+/******************************************************************************************/
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #iframe-cotacao {
+    .cotacoes_abracador {
+      text-align: center;
+      .cotacao_cliente {
+        justify-content: center;
+        .cotacoes_info {
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+/******************************************************************************************/
+/******************************************************************************************/
+/******************************************************************************************/
+
+@media (max-width: 575px) {
+  #iframe-cotacao {
+    height: inherit;
+    .cotacoes_abracador {
+      text-align: center;
+      .cotacao_cliente {
+        justify-content: center;
+        .cotacoes_info {
+          justify-content: center;
+          &--title {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .cotacoes_plus {
+      a {
+        flex-shrink: 0;
+      }
+    }
+    .row {
+      justify-content: flex-end;
+    }
+  }
+}
+
+/******************************************************************************************/
+/******************************************************************************************/
+/******************************************************************************************/
+
+@media (max-width: 420px) {
+}
+
+/******************************************************************************************/
+/******************************************************************************************/
+/******************************************************************************************/
+
+@media (max-width: 320px) {
+  #iframe-cotacao {
+    .cotacoes_abracador {
+      text-align: center;
+      .cotacao_cliente {
+        justify-content: center;
+        .cotacoes_info {
+          justify-content: center;
+          &--title {
+            font-size: 16px;
+          }
+          &--valor {
+            &--desc {
+              font-size: 10px;
+            }
+            &--number {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

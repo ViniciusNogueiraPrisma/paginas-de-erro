@@ -1,0 +1,38 @@
+.table-sm {
+    font-size: .75rem;
+    font-weight: normal;
+    thead {
+        background-color: #808080;
+        th, td {
+            box-shadow: none;
+            color: $cores-sistema-cinza;
+            font-family: $fontes-opensans-regular;
+            font-size: 16px;
+            line-height: 2.19;
+            text-align: left;
+        }
+        th {
+            background-color: #858383;
+            
+        }
+    }
+    .table-striped {
+        tbody {
+            tr:nth-of-type(odd) {
+                background-color: #f4f4f3;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .table-sm {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 375px) {
+    .table-sm {
+        font-size: 9px;
+    }
+}

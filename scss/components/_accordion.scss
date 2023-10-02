@@ -1,0 +1,69 @@
+.accordion {
+  margin: 24px 0;
+
+  .accordion-item {
+    border: none;
+    background-color: transparent;
+
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+
+  .accordion-header {
+    line-height: normal;
+
+    button {
+      padding: 24px 60px 24px 24px;
+      font-size: 24px;
+      font-weight: 400;
+      font-family: var(--font-text-3);
+      color: var(--text-grey-scale-07);
+      background-color: var(--pure-white);
+      border: none;
+      border-bottom: 1px solid var(--text-grey-scale-02);
+      box-shadow: none;
+      font-weight: 400;
+      border-radius: 2px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        right: 32px;
+        height: 24px;
+        width: 24px;
+        background: url("../images/icons/icon-abrir-accordion.svg") no-repeat
+          center;
+        background-size: contain;
+        transition: 0.3s ease;
+      }
+
+      &:not(.collapsed) {
+        background-color: var(--text-grey-scale-01);
+        color: var(--text-main);
+        border-bottom: 1px solid var(--text-main);
+        &::after {
+          background: url("../images/icons/icon-fechar-accordion.svg") no-repeat
+            center;
+        }
+      }
+
+      &.collapsed:hover {
+        color: var(--text-main);
+        border-bottom: 1px solid var(--text-main);
+      }
+    }
+  }
+
+  .accordion-collapse {
+    border: none;
+    box-shadow: none;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom: 1px solid var(--text-grey-scale-02);
+
+    .accordion-body {
+      padding: 16px;
+    }
+  }
+}

@@ -1,0 +1,1541 @@
+.btn-menu-a {
+  background-color: #344ff4;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 2px;
+  margin-left: 40px;
+  cursor: pointer;
+
+  // Quero me cadastrar
+  color: #fafafa;
+  font-size: 16px;
+  font-family: "Bw Seido Raw";
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+.btn-menu-a:hover {
+  color: white;
+}
+
+.banner-cambio img {
+  width: 100%;
+  // height: 77.67393561786085vh;
+  height: 89.63350785340315vh !important;
+  object-fit: cover;
+}
+
+.banner-cambio::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 89.63350785340315vh;
+  z-index: 1;
+
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.7455357142857143) 45%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+$color: #344ff4;
+
+.button-hover-cambio {
+  display: inline-block;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $color;
+    z-index: -2;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: darken($color, 15%);
+    transition: all 0.3s;
+    z-index: -1;
+  }
+  &:hover {
+    &:before {
+      width: 100%;
+    }
+  }
+}
+
+.pagination-home {
+  padding-bottom: 80px;
+  padding-left: 20px;
+  justify-content: start;
+  position: absolute;
+  display: flex;
+
+  .swiper-pagination-bullet {
+    background-color: #999999;
+    transition: 0.5s ease-in;
+    opacity: 0.7;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: #344ff4 !important;
+    width: 50px;
+    border-radius: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: 0.5s ease-in;
+  }
+}
+
+.text-banner-cambio {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  height: 89.63350785340315vh;
+  color: white;
+
+  z-index: 10;
+}
+
+.main-text-banner {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 11;
+  padding-bottom: 40px;
+
+  h1 {
+    color: #fafafa;
+    font-size: 64px;
+    font-family: Bennet Banner Extra Condensed;
+    font-weight: 800;
+    line-height: 79.36px;
+    word-wrap: break-word;
+    padding-bottom: 40px !important;
+  }
+
+  span {
+    // Câmbio com BENEFÍCIOS para nossa comunidade.
+    color: #fafafa;
+    font-size: 28px;
+    font-family: Bw Seido Raw;
+    font-weight: 400;
+    line-height: 36.96px;
+    word-wrap: break-word;
+    padding-bottom: 40px !important;
+  }
+
+  a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 14px;
+    padding-left: 14px;
+    border-radius: 2px;
+    background-color: #344ff4;
+
+    // Quero me cadastrar
+    color: #fafafa;
+    font-size: 20px;
+    font-family: Bw Seido Raw;
+    font-weight: 400;
+    line-height: 25px;
+    word-wrap: break-word;
+    width: fit-content;
+  }
+}
+
+.section-plataforma {
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url("../../images/bg-main-cambio.png");
+  background-position: center top 80px;
+}
+
+.container-plataforma {
+  padding-bottom: 148px;
+}
+
+.change-color-number {
+  transition: 0.5s ease;
+}
+
+.mySwiper-cambio {
+  height: 89.63350785340315vh !important;
+}
+
+.swiper-slide {
+  transition: opacity 1s ease-in-out !important; /* Aumentando o tempo da transição */
+}
+
+.text-plataforma {
+  width: 47%;
+  padding-top: 180px;
+
+  span {
+    // Nova plataforma de câmbio
+    color: #344ff4;
+    font-size: 28px;
+    font-family: "Bw Seido Raw";
+    font-weight: 400;
+    line-height: 36.96px;
+    word-wrap: break-word;
+  }
+
+  h1 {
+    color: #fafafa;
+    font-size: 28px;
+    font-family: "Bw Seido Raw";
+    font-weight: 400;
+    line-height: 36.96px;
+    word-wrap: break-word;
+    padding-top: 40px;
+
+    span {
+      color: #fafafa;
+      font-size: 28px;
+      font-family: Bw Seido Raw;
+      font-weight: 700;
+      line-height: 36.96px;
+      word-wrap: break-word;
+    }
+  }
+}
+
+.container-cards-plataforma {
+  display: flex;
+  padding-top: 40px;
+  gap: 24px;
+}
+
+.prisma-cambio-last {
+  display: none;
+}
+
+.cards-plataforma {
+  padding-top: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 24px;
+
+  background-color: #fafafa;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+
+  .bandeira1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+
+    span {
+      padding-top: 12px !important;
+      // BRL
+      color: #1d1d1d;
+      font-size: 18px;
+      font-family: Bw Seido Raw;
+      font-weight: 700;
+      line-height: 22.5px;
+      word-wrap: break-word;
+    }
+
+    img {
+      width: 30px;
+    }
+  }
+
+  .arrows-bandeira {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+
+    img {
+      width: 34px;
+    }
+  }
+}
+
+.container-card-tc {
+  padding-top: 180px;
+}
+
+.card-tc {
+  padding: 80px;
+  border-radius: 4px;
+  background-color: #fafafa;
+  width: 876px;
+
+  h1 {
+    padding-bottom: 24px;
+    color: #1d1d1d;
+    font-size: 56px;
+    font-family: "Bennet Banner Extra Condensed";
+    font-weight: 700;
+    line-height: 69.44px;
+    word-wrap: break-word;
+
+    span {
+      color: #344ff4;
+      font-size: 56px;
+      font-family: "Bennet Banner Extra Condensed";
+      font-weight: 700;
+      line-height: 69.44px;
+      word-wrap: break-word;
+    }
+  }
+
+  h3 {
+    color: #1d1d1d;
+    font-size: 20px;
+    font-family: "Neue Haas Unica Pro";
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+
+    span {
+      color: #1d1d1d;
+      font-size: 20px;
+      font-family: "Neue Haas Unica Pro";
+      font-weight: 700 !important;
+      line-height: 30px;
+      word-wrap: break-word;
+    }
+  }
+}
+
+.novidades-tc {
+  padding-top: 112px;
+}
+
+.novidades-title {
+  display: flex;
+  padding-left: 80px;
+  padding-right: 80px;
+
+  h1 {
+    width: 50%;
+    color: white;
+    font-size: 56px;
+    font-family: Bennet Banner Extra Condensed;
+    font-weight: 700;
+    line-height: 69.44px;
+    word-wrap: break-word;
+  }
+
+  h4 {
+    width: 50%;
+    // Com apenas poucos passos você cria seu cadastro<br/>e aproveita a melhor EXPERIÊNCIA da parceria blueTransfer e TC:
+    color: #999999;
+    font-size: 28px;
+    font-family: Bw Seido Raw;
+    font-weight: 400;
+    line-height: 36.96px;
+    word-wrap: break-word;
+  }
+}
+
+.itens-footer-last {
+  display: none;
+}
+
+.bluetransfer {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  // padding-right: 110px;
+  // padding-left: 110px;
+  border-radius: 8px;
+  border: 2px solid rgb(211, 211, 211);
+  margin-top: -80px;
+  background-color: #fafafa;
+  gap: 3px;
+}
+
+.imgs-mobile {
+  display: none;
+}
+
+.bluetransfer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  #wallet {
+    width: 40px;
+    // width: 3.125vw;
+  }
+
+  #brl-azul {
+    width: 214px;
+  }
+
+  #cambio-icon {
+    width: 156px;
+  }
+
+  #icon-setas {
+    width: 82px;
+  }
+
+  #img-bluetransfer {
+    width: 259px;
+  }
+
+  #img-brl-verde {
+    width: 214px;
+  }
+
+  #icon-globe {
+    width: 40px;
+  }
+}
+
+.fechamento-cambio {
+  padding-top: 140px;
+  // padding-left: 80px;
+  // padding-right: 80px;
+  padding-bottom: 32px;
+}
+
+.fechamento-title {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 32px;
+  padding-left: 80px;
+  padding-right: 80px;
+  border-bottom: 1px solid rgb(203, 202, 202);
+  gap: 24px;
+
+  h1 {
+    width: 50%;
+
+    color: #1d1d1d;
+    font-size: 56px;
+    font-family: Bennet Banner Extra Condensed;
+    font-weight: 700;
+    line-height: 69.44px;
+    word-wrap: break-word;
+  }
+
+  h3 {
+    color: #1d1d1d;
+    font-size: 21px;
+    font-family: Bw Seido Raw;
+    font-weight: 500 !important;
+    line-height: 29.4px;
+    word-wrap: break-word;
+    width: 50%;
+
+    span {
+      color: #344ff4;
+      font-size: 21px;
+      font-family: Bw Seido Raw;
+      font-weight: 500;
+      line-height: 29.4px;
+      word-wrap: break-word;
+    }
+  }
+}
+
+.container-cadastrar {
+  padding-top: 120px;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 112px;
+}
+
+.cadastrar-itens {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+
+  h1 {
+    // Cadastre-se
+    color: #344ff4;
+    font-size: 34px;
+    font-family: Bennet Banner Extra Condensed;
+    font-weight: 700;
+    line-height: 44.88px;
+    word-wrap: break-word;
+  }
+
+  h3 {
+    color: #1d1d1d;
+    font-size: 20px;
+    font-family: Neue Haas Unica Pro;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+
+    span {
+      color: #1d1d1d;
+      font-size: 20px;
+      font-family: Neue Haas Unica Pro;
+      font-weight: 700;
+      line-height: 30px;
+      word-wrap: break-word;
+    }
+  }
+}
+
+.imgs-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.cadastrar-number {
+  // display: none;
+
+  h1 {
+    color: #344ff4;
+    font-size: 200px;
+    font-family: Bennet Banner Extra Condensed;
+    font-weight: 700;
+    line-height: 200px;
+    word-wrap: break-word;
+  }
+}
+
+.cadastrar-cards {
+  width: 27.552083333333332vw;
+  height: 30.11422637590862vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+
+  img {
+    // width: 21.770833333333332vw;
+    height: 30.218068535825545vh;
+    margin-top: -40px;
+  }
+}
+
+.texts-main {
+  width: 27.552083333333332vw;
+}
+
+.cadastrar-texts {
+  width: 27.552083333333332vw;
+  width: 100%;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  // border: 1px solid red;
+  justify-content: space-between;
+}
+
+.cadastrar-cards2 {
+  width: 27.552083333333332vw;
+  height: 6.71875vw;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+
+  .modal2 {
+    // width: 20.833333333333332vw;
+    height: 7.1875vw;
+    // margin-bottom: -40px;
+    margin-top: 40px;
+  }
+}
+
+.cadastrar-cards3 {
+  width: 27.552083333333332vw;
+  height: 21.806853582554517vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+
+  img {
+    margin-top: 40px;
+    // width: 20.833333333333332vw;
+    height: 22.533748701973vh;
+  }
+}
+
+.cadastrar-cards4 {
+  width: 27.552083333333332vw;
+  height: 17.341640706126686vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+
+  img {
+    margin-top: -95px;
+    // width: 17.8125vw;
+    // height: 21.079958463136034vh;
+    height: 24.079958vh;
+  }
+}
+
+.title-novidades {
+  padding-top: 120px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  h1 {
+    color: #1d1d1d;
+    font-size: 56px;
+    font-family: Bennet Banner Extra Condensed;
+    font-weight: 700;
+    line-height: 69.44px;
+    word-wrap: break-word;
+  }
+
+  a {
+    // Quero me cadastrar
+    color: #fafafa;
+    font-size: 20px;
+    font-family: Bw Seido Raw;
+    font-weight: 400;
+    line-height: 25px;
+    word-wrap: break-word;
+    background-color: #344ff4;
+    width: fit-content;
+    padding: 10px 14px 10px 14px;
+    border-radius: 2px;
+  }
+}
+
+.section-faq {
+  background-color: #000000;
+  margin-top: 100px;
+}
+
+.contatos-faq {
+  background-color: #2d2d2d;
+  border-radius: 8px;
+  padding: 40px;
+  margin-top: -60px;
+  display: flex;
+  gap: 66px;
+  justify-content: center;
+}
+
+.infos1 {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  img {
+    width: 64px;
+  }
+}
+
+.texts-infos1 {
+  span {
+    color: #bbbbbb;
+    font-size: 18px;
+    font-family: Bw Seido Raw;
+    font-weight: 700;
+    line-height: 25.2px;
+    word-wrap: break-word;
+  }
+
+  h1 {
+    color: #bbbbbb;
+    font-size: 28px;
+    font-family: Bw Seido Raw;
+    font-weight: 700;
+    line-height: 36.96px;
+    word-wrap: break-word;
+  }
+}
+
+.infos2 {
+  // tccambio@tc.com.br<br/>Venha para o TC Câmbio !
+
+  h1 {
+    color: #fafafa;
+    font-size: 20px;
+    font-family: Neue Haas Unica Pro;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+  }
+}
+
+.titles-accordion {
+  margin-bottom: 32px;
+}
+
+.fa-plus {
+  color: white;
+}
+
+.fa-minus {
+  color: white;
+}
+
+.container-footer {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+
+.logo-contato {
+  display: flex;
+  // width: 100%;
+  gap: 4.166666666666667vw;
+
+  img {
+    width: 156px;
+  }
+}
+
+.texts-logo-contatos {
+  h2 {
+    // Endereço:
+    color: #fafafa;
+    font-size: 14px;
+    font-family: "Neue Haas Unica Pro";
+    font-weight: 700;
+    line-height: 18.48px;
+    word-wrap: break-word;
+    margin: 0;
+    padding-bottom: 24px !important;
+    // padding-bottom: 40px !important;
+  }
+
+  span {
+    // R. Leopoldo Couto Magalhães Júnior, 758 - 11° andar - Itaim Bibi, São Paulo - SP, 04542-000
+    color: #fafafa;
+    font-size: 14px;
+    font-family: "Neue Haas Unica Pro";
+    font-weight: 400;
+    line-height: 18.48px;
+    word-wrap: break-word;
+
+    a {
+      // Termos e Condições
+      color: #fafafa;
+      font-size: 14px;
+      font-family: Neue Haas Unica Pro;
+      font-weight: 400;
+      line-height: 18.48px;
+      word-wrap: break-word;
+    }
+  }
+}
+
+.links-footer {
+  span {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 200px;
+  }
+}
+
+.redes-sociais-footer {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: end;
+
+  span {
+    // Redes Sociais:
+    color: #fafafa;
+    font-size: 14px;
+    font-family: Neue Haas Unica Pro;
+    font-weight: 700;
+    line-height: 18.48px;
+    word-wrap: break-word;
+  }
+
+  .imgs-redes {
+    display: flex;
+    gap: 16px;
+    padding-top: 12px;
+
+    img {
+      width: 24px;
+    }
+  }
+}
+
+.logo-social {
+  display: flex;
+}
+
+.logo-blue {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  img {
+    width: 151px;
+  }
+
+  span {
+    // Bluetransfer Tecnologia e Serviços Financeiros Ltda - CNPJ 07.312.585/0001-24, Correspondente Cambial autorizado pelo Banco Cental do Brasil.
+    color: #999999;
+    font-size: 14px;
+    font-family: Neue Haas Unica W1G;
+    font-weight: 400;
+    line-height: 22.4px;
+    word-wrap: break-word;
+  }
+}
+
+.bluetransfer-bcb-last {
+  display: none !important;
+}
+
+.logo-bcb {
+  img {
+    width: 142px;
+  }
+}
+
+.bluetransfer-bcb {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.number-last {
+  display: none;
+}
+
+.texts-footer {
+  padding-top: 24px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 16px;
+
+  span {
+    // TC Advisory Ltda. (“TC Advisory”), inscrita no CNPJ/ME sob o nº 47.420.288/0001-17 com sede em São Paulo, no Estado de São Paulo é um prestador de serviços atuante como correspondente bancário, nos termos da Resolução CMN nº 4.935 de 2021 (“Correspondente no país”). O TC Advisory é Correspondente de Câmbio das melhores instituições financeiras autorizadas a operar no Mercado de Câmbio pelo Banco Central do Brasil.
+    color: #999999;
+    font-size: 14px;
+    font-family: Neue Haas Unica W1G;
+    font-weight: 400;
+    line-height: 22.4px;
+    word-wrap: break-word;
+  }
+}
+
+.prisma-cambio {
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  span {
+    // © Todos os direitos reservados 2023
+    color: #fafafa;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 19.6px;
+    word-wrap: break-word;
+  }
+
+  img {
+    width: 101px;
+  }
+}
+
+.cards-plataforma-swiper {
+  display: none;
+}
+
+@media (max-width: 1035px) {
+  .btn-menu-a {
+    display: none;
+  }
+
+  .container-plataforma {
+    padding-top: 148px;
+  }
+
+  .title-novidades h1 {
+    font-size: 42px;
+    line-height: 56px;
+  }
+
+  .accordion_header {
+    padding-left: 0;
+  }
+
+  .cadastrar-itens h1 {
+    font-size: 30px;
+  }
+
+  .fechamento-title h1 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  .fechamento-title h3 {
+    font-size: 20px;
+    line-height: 30px;
+
+    span {
+      font-size: 20px;
+    }
+  }
+
+  .text-plataforma {
+    padding-top: 0;
+    width: 100%;
+  }
+
+  .novidades-title {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .itens-faq {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .container-card-tc {
+    padding-top: 148px;
+  }
+
+  .card-tc {
+    width: 100%;
+  }
+
+  .main-text-banner h1 {
+    // Agora o TC conecta pessoas e empresas por todo o mundo!
+    color: #fafafa;
+    font-size: 42px;
+    font-family: Bennet Banner Extra Condensed;
+    font-weight: 700;
+    line-height: 52.08px;
+    word-wrap: break-word;
+  }
+
+  .main-text-banner span {
+    // Câmbio com BENEFÍCIOS para nossa comunidade.
+    color: #fafafa;
+    font-size: 24px;
+    font-family: Bw Seido Raw;
+    font-weight: 400;
+    line-height: 31.68px;
+    word-wrap: break-word;
+  }
+
+  .text-plataforma span {
+    // Nova plataforma de câmbio
+    color: #344ff4;
+    font-size: 24px;
+    font-family: Bw Seido Raw;
+    font-weight: 400;
+    line-height: 31.68px;
+    word-wrap: break-word;
+  }
+
+  .text-plataforma h1 {
+    color: #fafafa;
+    font-size: 24px;
+    font-family: Bw Seido Raw;
+    font-weight: 400;
+    line-height: 31.68px;
+    word-wrap: break-word;
+  }
+
+  .text-plataforma h1 span {
+    color: #fafafa;
+    font-size: 28px;
+    font-family: Bw Seido Raw;
+    font-weight: 700;
+    line-height: 36.96px;
+    word-wrap: break-word;
+  }
+
+  .container-cards-plataforma {
+    display: none;
+  }
+
+  .cards-plataforma-swiper {
+    display: block;
+  }
+}
+
+.slides-moedas {
+  width: auto !important;
+}
+
+.wrapper-fundos {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.swiper-pagination-fundos {
+  .swiper-pagination-bullet {
+    background-color: #c6c6c6;
+    transition: 0.3s ease-in-out;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: #344ff4;
+    transition: 0.3s ease-in-out;
+
+    width: 64px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+}
+
+@media (max-width: 1338px) {
+  .imgs-main {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1171px) {
+  .novidades-title {
+    flex-direction: column;
+
+    h1 {
+      width: 100%;
+      padding-bottom: 24px;
+    }
+
+    h4 {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1210px) {
+  .container-bluetransfer {
+    background-color: #000000;
+  }
+
+  .title-novidades {
+    padding-top: 80px;
+  }
+
+  .fechamento-title h1 {
+    line-height: 52px !important;
+  }
+
+  .fechamento-title {
+    padding-bottom: 40px !important;
+  }
+
+  .fechamento-title h3 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .bluetransfer {
+    margin-bottom: -63px;
+  }
+
+  .number-last {
+    display: block;
+
+    span {
+      color: #344ff4;
+      font-size: 100px;
+      font-family: Bennet Banner Extra Condensed;
+      font-weight: 700;
+      line-height: 100px;
+    }
+  }
+
+  .cadastrar-cards {
+    height: 250px;
+  }
+
+  .cadastrar-cards2 {
+    width: 100%;
+    height: 129px;
+  }
+
+  .modal1 {
+    // width: 400px !important;
+    // height: 138px !important;
+  }
+
+  .modal2 {
+    // width: 400px !important;
+    height: 138px !important;
+  }
+
+  .cadastrar-cards3 {
+    width: 100%;
+    height: 200px;
+  }
+
+  .modal3 {
+    // width: 400px !important;
+    height: auto;
+    margin-top: 32px !important;
+  }
+
+  .cadastrar-cards4 {
+    width: 100%;
+    margin-top: 42px;
+    height: 157px;
+  }
+
+  .modal4 {
+    // width: 400px !important;
+    margin-top: -75px !important;
+  }
+
+  .cadastrar-texts-last {
+    flex-direction: column-reverse !important;
+  }
+
+  .container-cadastrar {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 80px;
+  }
+
+  .texts-main {
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+  }
+
+  .cadastrar-texts {
+    flex-direction: column;
+  }
+
+  .cadastrar-cards {
+    width: 100%;
+  }
+
+  .cadastrar-itens {
+    h1 {
+      display: flex;
+
+      span {
+        color: #344ff4;
+        font-size: 100px;
+        font-family: Bennet Banner Extra Condensed;
+        font-weight: 700;
+        line-height: 100px;
+        word-wrap: break-word;
+        position: absolute;
+      }
+    }
+  }
+
+  .modal1 {
+    width: auto !important;
+  }
+
+  .imgs-mobile {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  #brl-mobile {
+    width: 215px;
+    // height: 214px;
+  }
+
+  #cambio-icon {
+    width: 156px;
+    // height: 53px;
+  }
+
+  #wallet {
+    width: 40px !important;
+  }
+
+  #arrow-mobile {
+    height: 82px;
+  }
+
+  #blue-mobile {
+    width: 259px;
+    // height: 55px;
+  }
+
+  #usd-mobile {
+    width: 215px;
+    // height: 214px;
+  }
+
+  #globe-mobile {
+    width: 40px;
+  }
+
+  .imgs-main {
+    display: none;
+  }
+
+  .fechamento-title {
+    flex-direction: column;
+    align-items: start;
+    padding-left: 0;
+    padding-right: 0;
+    gap: 0;
+
+    h1 {
+      width: 100%;
+      padding-bottom: 24px;
+    }
+
+    h3 {
+      width: 100%;
+    }
+  }
+
+  .cadastrar-number {
+    display: none;
+  }
+
+  .contatos-faq {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    .infos1 {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 1124px) {
+  .logo-social {
+    display: none;
+  }
+
+  .itens-footer-last {
+    display: block;
+  }
+
+  .infos-last {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 40px;
+    grid-column-gap: 40px;
+    // align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 24px;
+    // border-bottom: 1px solid gray;
+  }
+
+  .texts-logo-contatos h2 {
+    padding-bottom: 8px;
+    margin: 0;
+  }
+
+  .links-footer span {
+    display: flex;
+    width: 100%;
+    flex-direction: initial;
+    // flex-direction: block;
+  }
+
+  .redes-sociais-footer {
+    align-items: start;
+  }
+
+  .logo-blue {
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+  }
+
+  .bluetransfer-bcb {
+    display: none;
+  }
+
+  .imgs-bluetransfer-bcb-last {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    .img-blue-last {
+      width: 151px;
+      height: 33px;
+    }
+
+    .img-bcb-last {
+      width: 206px;
+    }
+  }
+
+  .bluetransfer-bcb-last {
+    display: block !important;
+
+    span {
+      color: #999999;
+      font-size: 14px;
+      font-family: "Neue Haas Unica Pro";
+      font-weight: 400;
+      line-height: 18px;
+    }
+  }
+
+  .imagem-logo-last {
+    img {
+      width: 156px;
+    }
+  }
+}
+
+@media (max-width: 758px) {
+  .infos-last {
+    grid-template-columns: auto;
+    justify-content: start;
+    grid-row-gap: 32px;
+  }
+
+  .novidades-title h1 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+  .novidades-title h4 {
+    font-size: 19px;
+  }
+
+  .logo-bcb img {
+    width: 649px;
+  }
+
+  .redes-sociais-footer {
+    flex-direction: initial;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+
+    .imgs-redes {
+      padding-top: 0px;
+      gap: 16px;
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .imgs-bluetransfer-bcb-last {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .prisma-cambio {
+    display: none;
+  }
+
+  .prisma-cambio-last {
+    display: flex;
+    flex-direction: column;
+
+    .voltar-topo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 27px;
+      img {
+        width: 156px;
+      }
+    }
+  }
+
+  .itens-prisma-last {
+    padding-top: 16px;
+
+    span {
+      color: #fafafa;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 19px;
+    }
+  }
+}
+
+@media (max-width: 545px) {
+  .texts-main {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .cadastrar-itens h1 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .cadastrar-cards::before {
+    content: "";
+    background-color: #000000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 250px;
+    z-index: -1;
+  }
+
+  .modal1 {
+    height: 250px !important;
+    margin-top: -30px !important;
+  }
+
+  .cadastrar-cards2::before {
+    content: "";
+    background-color: #000000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 129px;
+    z-index: -1;
+  }
+
+  .cadastrar-cards3::before {
+    content: "";
+    background-color: #000000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 200px;
+    z-index: -1;
+  }
+
+  .cadastrar-cards4::before {
+    content: "";
+    background-color: #000000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 157px;
+    z-index: -1;
+  }
+
+  .infos1 {
+    z-index: 2;
+  }
+
+  .infos2 {
+    z-index: 2;
+  }
+
+  .contatos-faq::before {
+    content: "";
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #2d2d2d;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 400px;
+    // border: 10px solid red;
+    z-index: 2;
+  }
+
+  .card-tc {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 148px;
+    margin-bottom: 148px;
+  }
+
+  .novidades-tc {
+    padding-top: 0px !important;
+  }
+
+  .container-card-tc {
+    padding-top: 0;
+  }
+
+  .card-tc {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    h1 {
+      z-index: 2;
+      position: relative;
+    }
+
+    h3 {
+      z-index: 2;
+      position: relative;
+    }
+  }
+
+  .card-tc::before {
+    content: "";
+    position: absolute;
+    margin-top: -80px;
+    left: 0;
+    right: 0;
+    height: 630px;
+    background-color: #fafafa;
+    // opacity: 0.5;
+    z-index: 1;
+  }
+
+  .cadastrar-cards4 img {
+    height: 26.079958vh;
+  }
+}
+
+@media (max-width: 339px) {
+  .contatos-faq::before {
+    height: 450px;
+  }
+}
+
+@media (max-width: 1041px) {
+  .banner-cambio img {
+    object-position: right;
+  }
+}

@@ -1,0 +1,109 @@
+.dropdown {
+    text-align: center;
+    .dropdown-toggle {
+        border-bottom: 1px solid rgba($cores-primarias-grafite,.75);
+        color: $cores-primarias-grafite;
+        font-size: 20px;
+        line-height: 1.35;
+        padding-bottom: 15px;
+        &:after {
+            margin-left: 180px;
+        }
+        &:hover {
+            text-decoration: none;
+            color: $cores-primarias-grafite;
+        }
+    }
+    .dropdown-menu {
+        padding: 0.5rem 243px 0.5rem 0;
+        margin: -0.5px 0 0 0;
+        border: 1px solid rgba($cores-primarias-grafite,.75);
+        border-radius: 0;
+        .dropdown-item {
+            color: $cores-primarias-grafite;
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 1.35;
+            &:hover {
+                color: $cores-primarias-grafite;
+                text-decoration: none;
+                background-color: inherit;
+            }
+        }
+    }
+}
+.color-red { color: #ed1d24; }
+
+.dropdown-item {
+    padding: 15px 1.5rem;
+    display: flex;
+    &:last-child {
+        
+        padding: 15px 1.5rem 0;
+    }
+    span {
+        font-size: 13px;
+        line-height: 1.38;
+        color: #444444;
+        strong {
+            font-weight: bold;
+        }
+    }
+}
+@media (max-width: 768px){
+    
+    .dropdown-item {
+        white-space: normal !important;
+    }
+}
+@media ( max-width : 575px ) {
+    .dropdown {
+        .dropdown-toggle {
+            font-size: 16px;
+            &:after {
+                margin-left: 80px;
+            }
+        }
+        .dropdown-menu {
+            padding: 0.5rem 122px 0.5rem 0;
+            
+            .dropdown-item {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media ( min-width : 576px ) and ( max-width : 767px )  {
+    .dropdown {
+        .dropdown-toggle {
+            font-size: 16px;
+            &:after {
+                margin-left: 80px;
+            }
+        }
+        .dropdown-menu {
+            padding: 0.5rem 122px 0.5rem 0;
+            .dropdown-item {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media ( min-width : 768px ) and ( max-width : 991px )  {
+    .dropdown {
+        .dropdown-toggle {
+            font-size: 16px;
+            &:after {
+                margin-left: 80px;
+            }
+        }
+        .dropdown-menu {
+            padding: 0.5rem 122px 0.5rem 0;
+            .dropdown-item {
+                font-size: 12px;
+            }
+        }
+    }
+}

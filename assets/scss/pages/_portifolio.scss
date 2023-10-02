@@ -1,0 +1,43 @@
+#page-portifolio {
+    padding: 0  0 60px;
+    #titulo {
+        h1 {
+            text-align: center;
+            margin: 0 0 40px;
+        }
+    }
+    #portfolio-body {
+        .card {
+            .card-body {
+                background-color: rgba(0, 0, 0, 0.45);
+                .card-title {
+                    color: $cores-primarias-branco;
+                    font-family: $fontes-opensans-regular;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 1.35;
+                    text-align: left;
+                }
+                .card-text {
+                    color: $cores-primarias-branco;
+                    font-family: $fontes-opensans-regular;
+                    font-size: 11px;
+                    line-height: 1.36;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+
+
+#page-title{
+    h1 {
+        margin: 0px 0px 45px 0;
+    }
+    p {
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,111 @@
+:root {
+  // Font Family
+
+  --font-text-1: "Lato";
+  --font-text-2: "Inter";
+  --font-text-3: "Bw Seido Raw";
+  --font-text-4: "Bennet Banner Extra Condensed";
+  --font-text-5: "Neue Haas Unica W1G";
+  --font-text-6: "Roboto";
+  --font-icomoon: "Icomoon";
+
+  // Text Colors
+
+  --text-color: #666666;
+
+  --text-main: #8529e9;
+
+  --text-white: #ffffff;
+  --text-black: #1d1d1d;
+
+  --text-primary-01-default: #00649c;
+  --text-primary-01-var-1: #004166;
+  --text-primary-01-var-2: #005280;
+  --text-primary-01-var-3: #0072b2;
+  --text-primary-01-var-4: #0083cc;
+  --text-primary-01-var-5: #0093e5;
+
+  --text-secondary-01-default: #008bd2;
+  --text-secondary-01-var-1: #00699e;
+  --text-secondary-01-var-2: #007ab8;
+  --text-secondary-01-var-3: #3fa0d2;
+  --text-secondary-01-var-4: #43a9de;
+  --text-secondary-01-var-5: #49b8f2;
+
+  --text-tertiary-01-default: #29b8ce;
+  --text-tertiary-01-var-1: #1f8999;
+  --text-tertiary-01-var-2: #249fb2;
+  --text-tertiary-01-var-3: #29b6cc;
+  --text-tertiary-01-var-4: #2ecde5;
+  --text-tertiary-01-var-5: #31d9f2;
+
+  --text-grey-scale-00: #ffffff;
+  --text-grey-scale-01: #eeeeee;
+  --text-grey-scale-02: #dddddd;
+  --text-grey-scale-03: #bbbbbb;
+  --text-grey-scale-04: #999999;
+  --text-grey-scale-05: #666666;
+  --text-grey-scale-06: #444444;
+  --text-grey-scale-07: #333333;
+  --text-grey-scale-08: #222222;
+  --text-grey-scale-09: #111111;
+
+  --text-grey-scale-c4: #c4c4c4;
+  --text-system-disabled: #d9d9d9;
+
+  --text-system-link: #1a0dab;
+  --text-system-focus: #2e82e5;
+  --text-system-link-visited: #1b1466;
+  --text-system-negative: #d23a20;
+  --text-system-alert: #ecb307;
+  --text-system-positive: #1e986f;
+
+  // Solid Colors
+
+  --color: #666666;
+
+  --pure-white: #ffffff;
+  --pure-black: #111111;
+
+  --primary-01-default: #00649c;
+  --primary-01-var-1: #004166;
+  --primary-01-var-2: #005280;
+  --primary-01-var-3: #0072b2;
+  --primary-01-var-4: #0083cc;
+  --primary-01-var-5: #0093e5;
+
+  --secondary-01-default: #008bd2;
+  --secondary-01-var-1: #00699e;
+  --secondary-01-var-2: #007ab8;
+  --secondary-01-var-3: #3fa0d2;
+  --secondary-01-var-4: #43a9de;
+  --secondary-01-var-5: #49b8f2;
+
+  --tertiary-01-default: #29b8ce;
+  --tertiary-01-var-1: #1f8999;
+  --tertiary-01-var-2: #249fb2;
+  --tertiary-01-var-3: #29b6cc;
+  --tertiary-01-var-4: #2ecde5;
+  --tertiary-01-var-5: #31d9f2;
+
+  --grey-scale-00: #ffffff;
+  --grey-scale-01: #eeeeee;
+  --grey-scale-02: #dddddd;
+  --grey-scale-03: #bbbbbb;
+  --grey-scale-04: #999999;
+  --grey-scale-05: #666666;
+  --grey-scale-06: #444444;
+  --grey-scale-07: #333333;
+  --grey-scale-08: #222222;
+  --grey-scale-09: #111111;
+
+  --grey-scale-c4: #c4c4c4;
+  --system-disabled: #d9d9d9;
+
+  --system-link: #1a0dab;
+  --system-focus: #2e82e5;
+  --system-link-visited: #1b1466;
+  --system-negative: #d23a20;
+  --system-alert: #ecb307;
+  --system-positive: #1e986f;
+}

@@ -1,0 +1,91 @@
+.button-storys-open{
+    background: transparent;
+    border: 2px solid var(--text-primary-01-default) !important;
+    border-radius: 50px;
+    align-self: start;
+
+    button{
+        display: flex;
+        align-items: center;
+        gap: 4px ;
+
+        padding: 2px 2px 2px 12px !important;
+        border: none;
+        background-color: transparent;
+        border-radius: 50px;
+        transition: .2s ease-in-out;
+        border: none !important;
+
+        &:hover{
+            background-color: var(--primary-01-var-1) !important;
+            
+            .text-stories{
+                color: var(--text-white);
+            }
+
+            .icon-button-stories{
+                background-color: var(--tertiary-01-var-4) !important;
+            }
+        }
+
+        .text-stories{
+            font-weight: 400;
+            font-size: rem(16);
+            font-family: var(--font-text-3);
+            color: var(--text-primary-01-var-1);
+            margin-right: 4px;
+
+            span{
+                @media (max-width: 991px){
+                    display: none;
+                }
+            }
+        }
+    
+        .icon-button-stories{
+            border-radius: 50%;
+            border: 1px solid transparent;
+            padding: 6px;
+            flex-shrink: 0;
+            background: var(--primary-01-default);
+
+            i{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                padding: 0px;
+                border-radius: 50%;
+    
+                height: 23px;
+                width: 23px;
+                background-color: var(--tertiary-01-default);
+                border: 1px solid var(--text-white);
+        
+    
+                &:before{
+                    font-size: rem(13);
+                }
+            }
+        }
+    }
+
+    &.not-text{
+        button{
+            padding: 2px !important;
+            .text-stories{
+                display: none;
+            }
+
+            .icon-button-stories{
+                border: none;
+                background: transparent;
+
+                i{
+                    border: none;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}

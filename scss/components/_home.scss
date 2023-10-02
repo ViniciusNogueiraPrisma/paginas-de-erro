@@ -1,0 +1,5651 @@
+@font-face {
+  font-family: "Bw Seido Raw";
+  src: url("../../fonts/Seido/Bw\ Seido\ Raw\ Regular.otf");
+  /* Outros formatos e variações da fonte podem ser adicionados aqui */
+}
+
+@font-face {
+  font-family: "Bennet Banner Extra Condensed";
+  src: url("../../fonts/Bennet_Banner_Condensed/Lipton\ Letter\ Design\ -\ Bennet\ Banner\ Extra\ Condensed\ Bold.otf");
+  /* Outros formatos e variações da fonte podem ser adicionados aqui */
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../../fonts/Inter/Inter-Regular.ttf");
+  /* Outros formatos e variações da fonte podem ser adicionados aqui */
+}
+
+@font-face {
+  font-family: "Neue Haas Unica W1G";
+  src: url("../../fonts/Neue_Haas_Unica/Linotype\ -\ Neue\ Haas\ Unica\ W1G\ Light.otf");
+  /* Outros formatos e variações da fonte podem ser adicionados aqui */
+}
+
+@font-face {
+  font-family: "Neue Haas Unica Pro";
+  src: url("../../fonts/Neue_Haas_Unica/Linotype\ -\ Neue\ Haas\ Unica\ Pro\ Light.otf");
+  /* Outros formatos e variações da fonte podem ser adicionados aqui */
+}
+
+.mobile-menu .menu-tools {
+  border-bottom: none !important;
+  padding-bottom: 0px !important;
+}
+
+.flex-relacoes-institucional {
+  display: none !important;
+}
+
+// #btnEn {
+//   margin-top: 17px;
+// }
+
+.rotate-image {
+  transition: transform 0.3s ease;
+}
+
+#btnMapaSite[aria-expanded="true"] .rotate-image {
+  transform: rotate(45deg) !important;
+}
+
+.comparativos-table {
+  overflow-x: auto !important;
+}
+
+.btn-nav-item {
+  display: flex;
+}
+
+.navbar {
+  //   border: 1px solid black;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.navbar-btns-after {
+  display: none !important;
+}
+
+.pagination-last {
+  display: none;
+}
+
+// .aumentar-font-last {
+//   display: none;
+// }
+
+// .diminuir-font-last {
+//   display: none;
+// }
+
+.hover-effect .text-carrosel-hover {
+  opacity: 1;
+  transition: 0.7s;
+}
+
+.text-carrosel-hover {
+  // width: 700px;
+  // width: 33.458333333333336vw;
+  width: 42.458333vw;
+  position: absolute;
+  z-index: 3;
+  height: 100%;
+  // align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  transition: 0.7s;
+
+  a {
+    background-color: #8529e9;
+    color: var(--text-white);
+    padding: 16px;
+    cursor: pointer;
+
+    width: fit-content;
+
+    // Investir no TC Cosmos
+    // color: white;
+    font-size: 16px;
+    font-family: "Bw Seido Raw";
+    font-weight: 500;
+    line-height: 20px;
+    word-wrap: break-word;
+    border-radius: 4px;
+    margin-top: 40px;
+  }
+
+  h5 {
+    // Renda variável longo prazo
+    color: white;
+    font-size: 14px;
+    font-family: "Neue Haas Unica W1G";
+    font-weight: 700;
+    line-height: 22.4px;
+    word-wrap: break-word;
+  }
+
+  h1 {
+    // TC Cosmos
+    color: white;
+    font-size: 72px;
+    font-family: "Bennet Banner Extra Condensed";
+    font-weight: 700;
+    line-height: 86.4px;
+    word-wrap: break-word;
+  }
+
+  h3 {
+    // Um fundo da TC Pandhora
+    color: #dddddd;
+    font-size: 24px;
+    font-family: "Bw Seido Raw";
+    font-weight: 400;
+    line-height: 31.68px;
+    word-wrap: break-word;
+    margin-bottom: 0 !important;
+  }
+
+  span {
+    // TC Cosmos é um fundo multimercado macro de maior volatilidade, que através de diferentes classes de ativos, procura boas oportunidades de curto, médio ou longo prazo.
+    color: #bbbbbb;
+    font-size: 16px;
+    font-family: "Neue Haas Unica W1G";
+    font-weight: 400;
+    line-height: 25.6px;
+    margin-top: 40px !important;
+    padding-top: 0 !important;
+    word-wrap: break-word;
+  }
+}
+
+.teste {
+  height: 100%;
+  width: 100%;
+}
+
+.first-carrosel-container {
+  display: flex;
+  justify-content: center;
+}
+
+.text-carrosel-home:hover {
+  transition: 0.7s ease-in-out;
+}
+
+.img-carrosel-home:hover .text-carrosel-home {
+  transition: 0.7s ease-in-out;
+}
+
+.text-carrosel-home {
+  position: absolute;
+  z-index: 3;
+  height: 78.8062vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  transition: 0.7s ease-in-out;
+
+  span {
+    // Regressivo Longo Prazo
+    color: #bbbbbb;
+    font-size: 21px;
+    font-family: "Bw Seido Raw";
+    font-weight: 400;
+    line-height: 29.4px;
+    word-wrap: break-word;
+  }
+
+  h1 {
+    // Essencial
+    color: white;
+    font-size: 40px;
+    font-family: "Bennet Banner Extra Condensed";
+    font-weight: 700;
+    line-height: 52.8px;
+    word-wrap: break-word;
+  }
+}
+
+.hover-effect {
+  transition: 0.7s ease-in-out;
+  filter: saturate(100%) !important;
+
+  backdrop-filter: blur(0px) !important;
+  -webkit-backdrop-filter: blur(0px) !important;
+
+  flex: 1 1 300px !important;
+}
+
+.hover-effect img {
+  transition: 0.7s ease-in-out;
+  background: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(0px) !important;
+  -webkit-backdrop-filter: blur(0px) !important;
+}
+
+.pagination-home-main {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  z-index: 3;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-bottom: 80px;
+  // border: 1px solid red;
+  width: 100%;
+  bottom: 0;
+
+  // padding-right: 150px;
+  li {
+    transition: 0.7s;
+    margin: 0 5px;
+    width: 20px;
+    border-radius: 4px;
+    height: 6px;
+    background-color: #e6e6e6;
+  }
+}
+
+.pagination-home-main .active {
+  background-color: #5c5c5c;
+  transition: 0.7s;
+  cursor: pointer;
+  width: 70px;
+  border-radius: 4px;
+  height: 6px;
+}
+
+.slides-cosmos {
+  height: 78.8062vh;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.img-carrosel-home {
+  aspect-ratio: 9/16;
+  flex: 1 1 10px;
+  min-width: 0;
+
+  filter: saturate(0);
+  object-fit: cover;
+  transition: 0.7s;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+    transition: 0.4s ease-in-out;
+  }
+}
+
+.tab-link {
+  transition: 0.5s;
+}
+
+.tab-link.active {
+  // border: 1px solid red;
+  background-color: #8529e9;
+  color: white;
+  transition: 0.5s;
+}
+
+/* Estilo inicial da div */
+.tab-content {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.ghost-image-carrosel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+  // background: rgba(0, 0, 0, 0);
+  // // backdrop-filter: blur(4px) !important;
+  // -webkit-backdrop-filter: blur(5px) !important;
+  // background: rgb(0, 0, 0);
+  // background: linear-gradient(
+  //   0deg,
+  //   rgba(0, 0, 0, 0.6839110644257703) 0%,
+  //   rgba(255, 255, 255, 0) 83%
+  // );
+
+  background: rgb(0, 0, 0);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 0.5186449579831933) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 0.5186449579831933) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 0.5186449579831933) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+}
+
+.tab-content.active {
+  display: block;
+  opacity: 1;
+}
+
+.img-carrosel-home:hover {
+  transition: 0.5s;
+  filter: saturate(100%);
+
+  flex: 1 1 400px;
+}
+
+.img-carrosel-home:hover .text-carrosel-hover {
+  display: flex !important;
+}
+
+.img-carrosel-home:hover .text-carrosel-home {
+  display: none !important;
+}
+
+.content-carrosel-home {
+  display: flex;
+  width: 100%;
+  height: 78.8062vh;
+}
+
+.gestao-invest-home {
+  display: flex;
+  flex-direction: column;
+  // width: 50%;
+  top: 40px;
+  position: relative;
+
+  span {
+    color: var(--text-black);
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.4px;
+    word-wrap: break-word;
+  }
+}
+
+.testimotionals-carrosel {
+  display: none;
+}
+
+.container-investir-home {
+  display: flex;
+  padding-top: 180px;
+  padding-bottom: 200px;
+  gap: 40px;
+  // border: 1px solid red;
+
+  img {
+    width: 35px;
+    height: 100%;
+    position: relative;
+    top: 24px;
+  }
+
+  span {
+    height: fit-content;
+    color: #010101;
+    font-size: 21px;
+    font-family: Bw Seido Raw;
+    font-weight: 400;
+    line-height: 29.4px;
+    word-wrap: break-word;
+    padding-bottom: 16px !important;
+  }
+
+  .txt-investir-home {
+    // width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      // Porque investir<br/>com a Pandhora
+      color: #8529e9;
+      font-size: 72px;
+      font-family: Bennet Banner Extra Condensed;
+      font-weight: 700;
+      line-height: 86.4px;
+      word-wrap: break-word;
+      margin-bottom: 0 !important;
+      padding-bottom: 50px;
+      width: 500px;
+    }
+
+    a {
+      width: fit-content;
+      padding: 16px;
+      word-wrap: break-word;
+      border-radius: 4px;
+      background-color: #010101;
+      color: var(--text-white);
+
+      span {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        word-wrap: break-word;
+        color: var(--text-white);
+      }
+    }
+  }
+}
+
+.section-cards-home {
+  background-color: var(--text-grey-scale-01);
+  position: relative;
+  margin: 0;
+  padding-bottom: 0 !important;
+
+  // padding-bottom: 320px;
+}
+
+.img-invista {
+  img {
+    // top: 155px;
+    margin-top: 155px;
+    position: absolute;
+    // border: 10px solid red;
+    right: 0;
+    width: 60%;
+  }
+}
+
+.invista-fundos-home {
+  display: flex;
+  padding-top: 100px;
+}
+
+.text-invista-home {
+  padding-top: 312px;
+  position: relative;
+  width: 100%;
+  padding-right: 50%;
+
+  h1 {
+    color: #1d1d1d;
+    font-size: 72px;
+    font-family: var(--font-text-4);
+    font-weight: 700;
+    line-height: 86.4px;
+    word-wrap: break-word;
+    padding-bottom: 24px;
+
+    span {
+      color: #1d1d1d;
+      font-size: 72px;
+      font-family: var(--font-text-4);
+      font-weight: 800;
+      line-height: 86.4px;
+      word-wrap: break-word;
+    }
+  }
+
+  span {
+    color: #333333;
+    font-size: 21px;
+    font-family: var(--font-text-3);
+    font-weight: 400;
+    line-height: 29.4px;
+    word-wrap: break-word;
+  }
+}
+
+.itens-fundo-home {
+  width: 50%;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  // border: 1px solid red;
+}
+
+.content-fundo-home {
+  background-color: #8529e9;
+  // border: 10px solid red;
+  border-radius: 4px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+  z-index: 2;
+  // align-items: flex-end;
+  gap: 80px;
+  display: flex;
+  justify-content: space-between;
+
+  .btns-last-home {
+    display: none;
+  }
+
+  .text-fundo-home {
+    width: 50%;
+    // border: 1px solid red;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    h1 {
+      color: var(--text-white);
+      // Um Fundo TC Pandhora
+
+      font-size: 18px;
+      font-family: "Bw Seido Raw";
+      font-weight: 400;
+      line-height: 25.2px;
+      word-wrap: break-word;
+    }
+
+    h2 {
+      color: var(--text-white);
+      font-size: 72px;
+      font-family: "Bennet Banner Extra Condensed";
+      font-weight: 700;
+      line-height: 86.4px;
+      word-wrap: break-word;
+    }
+
+    h4 {
+      color: var(--text-white);
+      font-size: 21px;
+      font-family: var(--text-font-3);
+      font-weight: 700;
+      word-wrap: break-word;
+    }
+
+    h4 span {
+      font-size: 21px;
+      font-family: var(--text-font-3);
+      font-weight: 400;
+      line-height: 29.4px;
+    }
+
+    span {
+      padding-top: 24px;
+      // padding-bottom: 80px;
+      // color: #cdb8e5;
+      color: var(--text-white);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 25.6px;
+      word-wrap: break-word;
+      // border: 1px solid red;
+      display: inline-flex;
+      // width: 60%;
+    }
+
+    a {
+      background-color: var(--text-black);
+      border: none;
+      color: var(--text-white);
+      padding: 16px;
+      border-radius: 4px;
+      width: fit-content;
+
+      margin-top: 80px;
+    }
+  }
+}
+
+.nossos-fundos-home {
+  // border: 10px solid red;
+
+  position: relative;
+  // top: 500px;
+  padding-top: 262px;
+
+  h1 {
+    color: #1d1d1d;
+    // border: 1px solid red;
+    padding-bottom: 40px;
+    font-size: 72px;
+    font-family: var(--font-text-4);
+    font-weight: 700;
+    line-height: 86.4px;
+    word-wrap: break-word;
+
+    span {
+      // Fundos
+      color: #1d1d1d;
+      font-size: 72px;
+      font-family: var(--font-text-4);
+      font-weight: 800;
+      line-height: 86.4px;
+      word-wrap: break-word;
+    }
+  }
+}
+
+.img-fundo-home {
+  position: relative;
+  z-index: 10;
+  transition: 0.5s;
+
+  img {
+    width: 100%;
+    transition: 0.5s;
+  }
+}
+
+.images-fundos-home {
+  position: absolute;
+  // border: 1px solid red;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.data-infos-cards-fundos-home {
+  // border: 1px solid red;
+  padding-top: 16px;
+  padding-bottom: 40px;
+}
+
+.slides-fundos {
+  display: flex;
+  gap: 24px;
+  width: 426px !important;
+}
+
+// .swiper-pagination-fundos {
+//   // border: 1px solid red;
+//   display: flex;
+//   border: 1px solid red;
+//   justify-content: center;
+//   padding-top: 40px;
+
+//   .swiper-pagination-bullet {
+//     transition: 0.5s ease-in-out;
+//     background-color: var(--text-grey-scale-09);
+//     // border: 1px solid red;
+//     width: 12px;
+//     border-radius: 4px;
+//     height: 6px;
+//   }
+
+//   .swiper-pagination-bullet-active {
+//     transition: 0.5s ease-in-out;
+//     // border: 1px solid red;
+//     background-color: black;
+//     width: 80px;
+//     height: 6px;
+//     border-radius: 4px;
+//   }
+// }
+
+.accordion_item:hover {
+  opacity: 0.9;
+  // border-bottom: 1px solid #8529e9;
+  transition: 0.5s;
+}
+
+.active-accordion {
+  // padding-top: 24px;
+  // padding-bottom: 24px !important;
+}
+
+.accordion_content {
+  background-color: #fff;
+  overflow: hidden;
+  height: 0;
+  transition: all 0.5s ease;
+  font-size: 14px;
+  display: grid;
+  justify-content: start;
+  align-items: center;
+
+  padding-left: 32px;
+  padding-right: 32px;
+
+  // margin-bottom: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  p {
+    // border: 1px solid red;
+    margin: auto;
+  }
+}
+
+footer {
+  background-color: var(--pure-black);
+  top: 0 !important;
+  position: relative;
+  // height: 1300px
+  color: white;
+}
+
+.logo-footer-pandhora {
+  img {
+    width: 158px;
+  }
+}
+
+.footer-contato-title {
+  padding-top: 40px !important;
+}
+
+.footer-end {
+  padding-top: 40px;
+}
+
+.footer-sobre {
+  border-bottom: 1px solid gray;
+  padding-top: 24px;
+  // padding-bottom: 24px !important;
+}
+
+.footer-sobre h5 {
+  // A Pandhora Investimentos Ltda.(“Pandhora”) é uma gestora de recursos devidamente credenciada na Comissão de Valores Mobiliários - CVM como administradora de carteira, de acordo com o Ato Declaratório CVM n.º 17.517 e constituída sob os moldes da Instrução CVM Nº558/15. A gestora é aderente ao códigos ANBIMA de Regulação e Melhores Práticas para Administração de Recursos de Terceiros e código ANBIMA de Regulação e Melhores Práticas para o Programa de Certificação Continuada. A Pandhora não comercializa ou distribui quotas de fundos de investimento, portanto todas as informações contidas neste website não devem ser consideradas como oferta de venda de cotas de fundos de investimentos ou de qualquer título ou valor mobiliário, recomendação de investimento e nem deve servir como única base para tomada de decisões de investimento. Fundos de investimentos não contam com a garantia do administrador do fundo, do gestor da carteira, de qualquer mecanismo de seguro ou, ainda, do Fundo Garantidor de Créditos - FGC. A rentabilidade obtida no passado não representa garantia de rentabilidade futura. A rentabilidade divulgada não é líquida de impostos. Ao investidor é recomendada a leitura cuidadosa do prospecto e do regulamento do fundo de investimento ao aplicar os seus recursos. O Fundo Pandhora não se responsabiliza pela publicação acidental de informações incorretas, nem por decisões de investimentos tomadas com base neste material. O conteúdo deste website não pode ser reproduzido sem prévia e expressa autorização. A Pandhora, seus sócios e funcionários não se responsabilizam pelo uso indevido do conteúdo deste website, pela publicação acidental de informações incorretas, nem por decisões de investimentos tomadas com base neste material. SUPERVISÃO E FISCALIZAÇÃO: Comissão de Valores Mobiliários – CVM. Serviço de Atendimento ao Cidadão em www.cvm.gov.br
+  color: #fafafa;
+  font-size: 14px;
+  font-family: "Neue Haas Unica W1G";
+  font-weight: 400;
+  line-height: 22.4px;
+  word-wrap: break-word;
+}
+
+.prisma-title span {
+  // Pandhora Investimentos LTDA - Todos os direitos reservados 2023
+  color: #666666;
+  font-size: 14px;
+  font-family: "Neue Haas Unica W1G";
+  font-weight: 400;
+  line-height: 22.4px;
+  word-wrap: break-word;
+}
+
+.footer-prisma {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+}
+
+.quadro-mobile {
+  display: none;
+}
+
+.img-promessa-2 {
+  display: none;
+}
+
+.voltar-topo {
+  cursor: pointer;
+  display: flex;
+  // align-items: center;
+  gap: 8px;
+
+  span {
+    // Voltar ao topo
+    color: #bbbbbb;
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 19.6px;
+    word-wrap: break-word;
+  }
+}
+
+.prisma-logo {
+  img {
+    width: 101px;
+  }
+}
+
+.infos-tc-footer {
+  position: relative;
+  z-index: 10;
+
+  h1 {
+    color: #333333;
+    font-size: 18px;
+    font-family: "Bw Seido Raw";
+    font-weight: 400;
+    line-height: 25.2px;
+    word-wrap: break-word;
+  }
+
+  span {
+    color: #333333;
+    font-size: 18px;
+    font-family: "Bw Seido Raw";
+    font-weight: 700;
+    line-height: 25.2px;
+    word-wrap: break-word;
+  }
+}
+
+.infos-tc-footer-imgs {
+  display: flex;
+  padding-top: 20px;
+  gap: 16px;
+
+  img {
+    width: 146px;
+  }
+}
+
+.container-carrosel-home {
+  background: black !important;
+}
+
+.vector-quadro {
+  position: absolute;
+  background-image: url("../../images/Design_sem_nome__1_-removebg-preview.png");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  z-index: 0;
+
+  left: 207px;
+  right: 0;
+
+  width: 418px;
+  height: 341px;
+
+  img {
+    bottom: 36px;
+    right: 75px;
+    position: relative;
+  }
+}
+
+.footer-quadro {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  border-radius: 4px;
+  top: -210px;
+
+  left: 0;
+  right: 0;
+
+  padding: 48px 120px 48px 120px;
+}
+
+.quadro-invest {
+  position: relative;
+  z-index: 10;
+
+  h5 {
+    // Onde Investir
+    color: #333333;
+    font-size: 16px;
+    font-family: "Neue Haas Unica W1G";
+    font-weight: 400;
+    line-height: 25.6px;
+    padding-bottom: 16px !important;
+    margin-bottom: 0 !important;
+    word-wrap: break-word;
+  }
+
+  h1 {
+    // Abra sua conta e comece
+    color: #666666;
+    font-size: 28px;
+    font-family: "Bw Seido Raw";
+    font-weight: 400;
+    line-height: 36.96px;
+    word-wrap: break-word;
+    padding-bottom: 24px !important;
+
+    span {
+      // a operar hoje pelo app TC
+      color: #1d1d1d;
+      font-size: 28px;
+      font-family: "Bw Seido Raw";
+      font-weight: 700;
+      line-height: 36.96px;
+      word-wrap: break-word;
+    }
+  }
+
+  .span-invest {
+    // Já é cliente?
+    color: #666666;
+    font-size: 21px !important;
+    font-family: "Bw Seido Raw";
+    font-weight: 400 !important;
+    line-height: 29.4px;
+    word-wrap: break-word;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+}
+
+.footer-texts {
+  // border: 1px solid red;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  border-bottom: 1px solid gray;
+
+  display: flex;
+  gap: 25px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    // Saiba tudo em primeira mão.
+    color: #fafafa;
+    font-size: 21px;
+    font-family: Helvetica;
+    font-weight: 700;
+    line-height: 29.4px;
+    word-wrap: break-word;
+  }
+
+  h4 {
+    // Assine à Pandhora News e receba conteúdo exclusivo sobre o mercado financeiro.
+    color: #fafafa;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 22.4px;
+    word-wrap: break-word;
+  }
+
+  h5 {
+    // Sobre a Pandhora
+    color: #fafafa;
+    font-size: 16px;
+    font-family: "Neue Haas Unica W1G";
+    font-weight: 700;
+    line-height: 25.6px;
+    word-wrap: break-word;
+  }
+
+  span {
+    // Quem Somos
+    color: #fafafa;
+    font-size: 16px;
+    font-family: "Neue Haas Unica W1G";
+    font-weight: 200;
+    line-height: 25.6px;
+    word-wrap: break-word;
+    padding-bottom: 10px !important;
+  }
+
+  a {
+    // Política de Privacidade
+    color: #fafafa;
+    font-size: 16px;
+    font-family: "Neue Haas Unica W1G";
+    font-weight: 200;
+    line-height: 25.6px;
+    word-wrap: break-word;
+  }
+
+  small {
+    color: #bbbbbb;
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 19.6px;
+    word-wrap: break-word;
+    padding-top: 16px;
+  }
+}
+
+.img-anbima {
+  padding-top: 16px;
+  width: 120px;
+}
+
+.input-text-footer {
+  // border: 10px solid red;
+  padding: 12px 16px 12px 16px;
+  border-radius: 4px;
+  border: none;
+
+  // Digite seu e-mail @
+  color: #bbbbbb;
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 19.6px;
+  word-wrap: break-word;
+  margin-bottom: 16px;
+}
+
+.input-submit-footer {
+  background: #8529e9;
+  padding: 12px 16px 12px 16px;
+  margin-bottom: 26px;
+  border-radius: 4px;
+  border: none;
+
+  // Cadastrar
+  color: #fafafa;
+  font-size: 14px;
+  font-family: "Bw Seido Raw";
+  font-weight: 500;
+  line-height: 17.5px;
+  word-wrap: break-word;
+}
+
+.logos-footer {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding-bottom: 40px;
+
+  .icons-footer-pandhora {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    img {
+      width: 24px;
+    }
+  }
+}
+
+.footer-itensprisma-last {
+  display: none;
+}
+
+.accordion_header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+
+  span {
+    // Como posso investir nos fundos da Pandhora
+    color: #333333;
+    font-size: 24px;
+    font-family: "Bw Seido Raw";
+    font-weight: 400;
+    line-height: 32.4px;
+    word-wrap: break-word;
+  }
+}
+
+.accordion_item {
+  border-bottom: 1px solid rgb(189, 188, 188);
+  transition: 0.5s;
+}
+
+.accordion_item span {
+  transition: 0.5s;
+  // 02. Posso receber valores do exterior ?
+  color: white;
+  font-size: 18px;
+  font-family: Bw Seido Raw;
+  font-weight: 700;
+  line-height: 25.2px;
+  word-wrap: break-word;
+}
+
+.accordion_item:hover span {
+  // color: #8529e9;
+  color: var(--grey-scale-05);
+  transition: 0.5s;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  // width: 100%;
+  // height: 100%;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.itens-faq {
+  padding-left: 112px;
+  padding-right: 112px;
+}
+
+.accordion-home {
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  .span-accordion {
+    color: white;
+    font-size: 20px;
+    font-family: Neue Haas Unica Pro;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+  }
+
+  h1 {
+    // Perguntas Frequentes
+    padding-bottom: 24px;
+    color: white;
+    font-size: 34px;
+    font-family: Bennet Banner Extra Condensed;
+    font-weight: 700;
+    line-height: 44.88px;
+    word-wrap: break-word span {
+      // border: 1px solid red;
+      // Frequentes
+      color: #010101;
+      font-size: 40px;
+      font-family: "Bennet Banner Extra Condensed";
+      font-weight: 800;
+      line-height: 52.8px;
+      word-wrap: break-word;
+    }
+  }
+}
+
+.content-card-fundos-home:hover {
+  transition: 0.7s;
+  background-color: #8529e9;
+
+  h1 {
+    color: var(--text-white);
+  }
+
+  a {
+    background-color: var(--text-black);
+  }
+
+  h5 {
+    color: #cdb8e5;
+  }
+
+  span {
+    color: var(--text-white);
+  }
+
+  .infos-card-fundos-home {
+    h5 {
+      color: var(--text-white);
+    }
+
+    span {
+      color: var(--text-white);
+    }
+  }
+
+  .data-infos-cards-fundos-home {
+    transition: 0.5s;
+    gap: 50px;
+
+    h5 {
+      color: var(--text-white);
+    }
+
+    span {
+      color: var(--text-white);
+    }
+  }
+}
+
+.content-card-fundos-home {
+  transition: 0.7s;
+  background-color: var(--pure-white);
+  // border: 1px solid red;
+  width: 426px;
+  height: 490px;
+  padding: 32px;
+  border-radius: 4px;
+
+  h5 {
+    // Moderado
+    color: #bc90f2;
+    font-size: 14px;
+    font-family: Neue Haas Unica W1G;
+    font-weight: 400;
+    line-height: 22.4px;
+    word-wrap: break-word;
+    padding-bottom: 16px !important;
+    margin-bottom: 0 !important;
+  }
+
+  h1 {
+    // TC Cosmos
+    color: #8529e9;
+    font-size: 34px;
+    font-family: var(--font-text-3);
+    font-weight: 700;
+    line-height: 44.88px;
+    word-wrap: break-word;
+    padding-bottom: 16px;
+  }
+
+  span {
+    // TC Cosmos é um fundo multimercado macro de maior volatilidade, que através de diferentes classes de ativos, procura boas oportunidades de curto, médio ou longo prazo.
+    color: #333333;
+    font-size: 14px;
+    font-family: Neue Haas Unica W1G;
+    font-weight: 400;
+    line-height: 22.4px;
+    word-wrap: break-word;
+  }
+
+  .infos-card-fundos-home {
+    padding-top: 40px;
+
+    display: flex;
+    gap: 8px;
+    border-bottom: 2px solid var(--text-grey-scale-03);
+
+    h5 {
+      // Perfil:
+      color: #999999;
+      font-size: 16px;
+      font-family: Neue Haas Unica W1G;
+      font-weight: 700;
+      line-height: 25.6px;
+      word-wrap: break-word;
+
+      span {
+        // R$ 0.00
+        color: #333333;
+        font-size: 16px;
+        font-family: Neue Haas Unica W1G;
+        font-weight: 400;
+        line-height: 25.6px;
+        word-wrap: break-word;
+        padding-left: 8px;
+      }
+    }
+  }
+
+  .data-infos-cards-fundos-home {
+    transition: 0.5s;
+    display: flex;
+    gap: 45px;
+
+    h5 {
+      // Dia:
+      color: #999999;
+      font-size: 16px;
+      font-family: Neue Haas Unica W1G;
+      font-weight: 400;
+      line-height: 25.6px;
+      word-wrap: break-word;
+    }
+
+    span {
+      // 00%
+      color: #1d1d1d;
+      font-size: 21px;
+      font-family: var(--font-text-3);
+      font-weight: 700;
+      line-height: 29.4px;
+      word-wrap: break-word;
+    }
+  }
+
+  a {
+    padding: 16px;
+    background-color: #8529e9;
+    border-radius: 4px;
+    // Quero investir
+    color: white;
+    font-size: 16px;
+    font-family: var(--font-text-3);
+    font-weight: 500;
+    line-height: 20px;
+    word-wrap: break-word;
+  }
+}
+
+.ghost-fundo-home-last {
+  display: none;
+}
+
+.cards-fundo-home {
+  flex-direction: column;
+  gap: 24px;
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: white;
+  padding-bottom: 5.5%;
+  padding-left: 20%;
+
+  left: 0;
+  right: 0;
+}
+
+.carrosel-fundo-home {
+  height: 100%;
+  position: absolute;
+  width: 50%;
+  // border: 1px solid black;
+}
+
+.slide-image {
+  height: 100%;
+  top: -200px;
+}
+
+.content-carrosel-fundo-home {
+  // border: 1px solid red;
+  height: 700px;
+
+  position: relative;
+  // right: 200px;
+  right: 7.416667vw;
+  top: 46px;
+}
+
+.ghost-fundo-home {
+  border-top-left-radius: 50px;
+  height: 300px;
+  width: 349px;
+  top: -25px;
+  background: rgb(133, 41, 233);
+  background: linear-gradient(
+    90deg,
+    rgba(133, 41, 233, 0.4066001400560224) 0%,
+    rgba(255, 255, 255, 0) 93%
+  );
+  opacity: 0.9;
+  position: absolute;
+  z-index: -999;
+}
+
+.active-fundos {
+  background-color: transparent !important;
+  transition: 0.6s;
+}
+
+.card-carrosel-home {
+  border: 1px solid var(--text-white);
+  height: auto;
+  // background-color: var(--text-grey-scale-04);
+
+  border-radius: 4px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 20px 24px 20px;
+
+  img {
+    width: 56px;
+  }
+
+  span {
+    font-size: 18px;
+    // font-weight: 700;
+    line-height: 25.2px;
+    word-wrap: break-word;
+    color: var(--text-white);
+  }
+}
+
+.mySwiper {
+  // border: 1px solid black;
+  height: 100%;
+  position: relative;
+
+  .swiper-slide {
+    // border: 1px solid red;
+    height: 107.2px !important;
+  }
+}
+
+.swiper-slide {
+  color: white;
+}
+
+.content-cards-home {
+  // border: 1px solid red;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  position: relative;
+  top: -191px;
+
+  .last-card-home {
+    background-color: var(--pure-black) !important;
+
+    span {
+      color: var(--text-white) !important;
+      font-weight: 400 !important;
+      font-size: 14px !important;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h5 {
+      color: var(--text-white);
+      font-weight: 700 !important;
+      font-size: 24px;
+      font-family: var(--text-font-3);
+    }
+  }
+
+  .cards-home {
+    // width: 226px;
+    width: 100%;
+    height: auto;
+    padding: 32px 16px 32px 16px;
+    word-wrap: break-word;
+    background-color: #e1e1e1;
+
+    span {
+      color: var(--text-grey-scale-09);
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 25.2px;
+      word-wrap: break-word;
+    }
+
+    img {
+      width: 56px;
+      padding-bottom: 32px;
+    }
+  }
+}
+
+.section-pandhora {
+  padding-bottom: 320px;
+  background: #e7e7e7;
+  margin-top: -100px;
+}
+
+.nav-link {
+  // Sobre
+  color: #666666;
+  font-size: 18px;
+  font-family: "Neue Haas Unica Pro";
+  font-weight: 400;
+  line-height: 22.32px;
+  word-wrap: break-word;
+}
+
+.nav-link:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: #344ff4;
+  transition: width 0.3s;
+}
+
+.nav-link:hover:after {
+  width: 100%;
+}
+
+.nav-link:hover {
+  transition: 0.3s ease;
+  color: #344ff4;
+}
+
+.dropdown-menu {
+  border-radius: 0px;
+  background-color: #344ff4;
+}
+
+.dropdown-item {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  transition: 0.7s ease;
+  color: white;
+}
+
+.dropdown-item:hover {
+  color: white;
+  // background-color: #b381e8;
+  background-color: #6f81f7;
+}
+
+.navbar-nav {
+  display: flex;
+  width: 100%;
+
+  li {
+    margin: auto;
+  }
+}
+
+.navbar-items {
+  display: flex;
+  gap: 24px;
+}
+
+.btnSearch {
+  border: none;
+  background-color: transparent;
+}
+
+.btns-menu {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.btn1 {
+  background-color: #8529e9;
+  gap: 14px;
+
+  span {
+    color: white;
+  }
+}
+
+.footer-last-texts {
+  display: none;
+}
+
+.btn2 {
+  background-color: #010101;
+  gap: 14px;
+
+  span {
+    color: white;
+  }
+}
+
+.btns-items {
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  //   justify-content: center;
+}
+
+#img-home-last {
+  display: none;
+}
+
+#last-a-home {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  // .navbar-items {
+  //   display: none;
+  // }
+
+  // .logo img {
+  //   width: 112px !important;
+  // }
+
+  // .list-menu {
+  //   display: none;
+  // }
+
+  .search-btn {
+    display: none;
+  }
+
+  .navbar-after {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .btnSearch {
+    display: none;
+  }
+
+  .btn-menu {
+    // border: 1px solid red;
+    // padding-left: 16px;
+  }
+}
+
+@media (max-width: 1140px) {
+  #img-home-last {
+    display: block !important;
+  }
+
+  .gestao-invest-home {
+    padding-left: 79px;
+  }
+
+  .container-investir-home {
+    padding-bottom: 100px;
+  }
+
+  .content-cards-home {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-bottom: 180px;
+
+    .cards-home {
+      width: 100% !important;
+      height: 227px;
+    }
+  }
+
+  .content-cards-home {
+    top: 0;
+  }
+
+  #last-a-home {
+    display: block !important;
+    width: fit-content;
+    padding: 16px;
+    word-wrap: break-word;
+    border-radius: 4px;
+    background-color: #010101;
+
+    span {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+      word-wrap: break-word;
+      color: var(--text-white);
+    }
+  }
+
+  .container-investir-home {
+    flex-direction: column;
+    gap: 0;
+
+    span {
+      padding-bottom: 40px !important;
+    }
+
+    img {
+      display: none;
+    }
+
+    .txt-investir-home {
+      width: 100%;
+
+      h1 {
+        display: flex;
+        gap: 40px;
+        padding-bottom: 0 !important;
+      }
+
+      a {
+        display: none;
+      }
+    }
+
+    .gestao-invest-home {
+      width: 100%;
+    }
+  }
+}
+
+.img-banner-interna {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+
+  img {
+    position: relative;
+    z-index: 0;
+    height: 24.0625vw;
+    object-fit: cover;
+    width: 100%;
+  }
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 24.0625vw;
+
+  z-index: 10;
+
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 42%, transparent 100%);
+}
+
+.gestao-qs {
+  display: flex;
+  padding-top: 52px;
+  gap: 24px;
+}
+
+.gestao-1 {
+  width: 50%;
+
+  h1 {
+    // Unimos Gestão e Tecnologia
+    color: #8529e9;
+    font-size: 34px;
+    font-family: "Bw Seido Raw";
+    font-weight: 400;
+    line-height: 44.88px;
+    word-wrap: break-word;
+  }
+
+  h5 {
+    // Criando fundos ideais para construção<br/>de patrimônio, com segurança<br/>e diversificação.
+    color: #010101;
+    font-size: 28px;
+    font-family: "Bw Seido Raw";
+    font-weight: 400;
+    line-height: 36.96px;
+    word-wrap: break-word;
+  }
+}
+
+.gestao-2 {
+  width: 50%;
+  gap: 25px;
+
+  h1 {
+    color: #8c36f1;
+    font-size: 16px;
+    font-family: "Neue Haas Unica W1G";
+    font-weight: 700;
+    line-height: 25.6px;
+    word-wrap: break-word;
+    padding-bottom: 16px !important;
+  }
+
+  span {
+    // Por isso, nossa área de pesquisa e desenvolvimento é nosso core.<br/>O espaço para inovação é inesgotável e nossa perenidade depende da busca incessante por conhecimento, nos mantendo em constante evolução.
+    color: #333333;
+    font-size: 16px;
+    font-family: "Neue Haas Unica W1G";
+    font-weight: 400;
+    line-height: 25.6px;
+    word-wrap: break-word;
+  }
+
+  h5 {
+    color: #333333;
+    font-size: 16px;
+    font-family: "Neue Haas Unica W1G";
+    font-weight: 400;
+    line-height: 25.6px;
+    word-wrap: break-word;
+    padding-top: 24px;
+  }
+
+  h3 {
+    color: #333333;
+    font-size: 16px;
+    font-family: "Neue Haas Unica W1G";
+    font-weight: 400;
+    line-height: 25.6px;
+    word-wrap: break-word;
+  }
+}
+
+.first-pagination {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  img {
+    width: 15px;
+  }
+
+  .inactive-pagination {
+    // Sobre a Pandhora
+    color: var(--text-grey-scale-04);
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+  }
+
+  .active-pagination {
+    // Quem Somos
+    color: #1d1d1d;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+  }
+}
+
+.pagination-internas {
+  padding-top: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .second-pagination {
+    display: flex;
+    gap: 12px;
+
+    img {
+      width: 17px;
+    }
+  }
+}
+
+.texts-banner-interna {
+  position: absolute;
+  width: 100%;
+  z-index: 11;
+  padding-bottom: 104px;
+  left: 0;
+  right: 0;
+  // border: 1px solid red;
+
+  h1 {
+    // Quem Somos
+    color: white;
+    font-size: 72px;
+    font-family: "Bennet Banner Extra Condensed";
+    font-weight: 700;
+    line-height: 86.4px;
+    word-wrap: break-word;
+  }
+
+  span {
+    // Um pouco sobre a história da Pandhora e suas operações
+    color: #fafafa;
+    font-size: 21px;
+    font-family: "Bw Seido Raw";
+    font-weight: 400;
+    line-height: 29.4px;
+    word-wrap: break-word;
+  }
+}
+
+/*************************************************************
+  HEADER
+**************************************************************/
+.parallax {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  transform-style: inherit;
+  z-index: -1;
+}
+
+.parallax::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  background: url(https://picsum.photos/g/1921/1081?random) top center;
+  background-size: cover;
+  transform: translateZ(-1px) scale(2.1);
+  min-height: 100%;
+  z-index: -2;
+}
+
+/*************************************************************
+  SECTIONS
+**************************************************************/
+
+.section-parallax {
+  padding-bottom: 0 !important;
+}
+
+.p-one {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url("../../images/bn-qs.png");
+  // background-image: url("../../images/bn-qs.png");
+}
+
+.p-dois {
+  background-image: url("../../images/home-fundo-3-min\ 1.png");
+}
+
+.parallax-inner {
+  position: relative;
+  min-height: 71.65109034267913vh;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.parallax-inner > h2 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -20.5px;
+  width: 100%;
+  text-align: center;
+}
+
+.promessa-qs-container {
+  background-color: #1d1d1d;
+  // border: 1px solid red;
+}
+
+.promessa-qs {
+  padding-top: 112px;
+  padding-left: 150px;
+  padding-right: 150px;
+
+  h1 {
+    // Nossa promessa
+    color: white;
+    font-size: 34px;
+    font-family: "Bw Seido Raw";
+    font-weight: 700;
+    line-height: 44.88px;
+    word-wrap: break-word;
+    padding-bottom: 24px;
+  }
+
+  h4 {
+    // Criando fundos ideais para construção de patrimônio,<br/>com segurança e diversificação.
+    color: white;
+    font-size: 28px;
+    font-family: "Bw Seido Raw";
+    font-weight: 400;
+    line-height: 36.96px;
+    word-wrap: break-word;
+  }
+}
+
+.card-promessas-container {
+  padding-top: 40px;
+  display: flex;
+  gap: 24px;
+  position: relative;
+  z-index: 2;
+}
+
+.card-promessas {
+  padding: 40px;
+  background-color: #eeeeee;
+  border-radius: 4px;
+  width: 351px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  img {
+    width: 80px;
+  }
+
+  h1 {
+    // Diversificação<br/>
+    color: #333333;
+    font-size: 28px;
+    font-family: "Bw Seido Raw";
+    font-weight: 700;
+    line-height: 36.96px;
+    word-wrap: break-word;
+    // padding-bottom: 100px;
+    position: absolute;
+    padding-top: 120px;
+  }
+
+  span {
+    // Construir estratégias quantitativas que gerem ganhos de diversificação para nossos clientes é central em nossa tomada de decisão.
+    color: #333333;
+    font-size: 16px;
+    font-family: "Neue Haas Unica W1G";
+    font-weight: 700;
+    line-height: 25.6px;
+    word-wrap: break-word;
+    padding-top: 135px;
+  }
+}
+
+.last-card-promessa {
+  background-color: #8529e9 !important;
+
+  h1 {
+    color: var(--text-white) !important;
+  }
+
+  span {
+    color: var(--text-white) !important;
+  }
+}
+
+.acreditamos-container {
+  background-color: var(--pure-white);
+  // top: -120px;
+  margin-top: -220px;
+  z-index: 1;
+  position: relative;
+}
+
+.acreditamos-title {
+  // border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  padding-top: 352px;
+
+  h1 {
+    // Acreditamos em
+    color: #8529e9;
+    font-size: 34px;
+    font-family: "Bw Seido Raw";
+    font-weight: 700;
+    line-height: 44.88px;
+    word-wrap: break-word;
+  }
+}
+
+.cards-acreditamos-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 54px;
+  padding-bottom: 80px;
+}
+
+.cards-acreditamos {
+  padding: 40px;
+  border-top: 1px solid #1d1d1d;
+  border-bottom: 1px solid #1d1d1d;
+  border-left: 1px solid #1d1d1d;
+
+  img {
+    width: 80px;
+    padding-bottom: 24px;
+  }
+
+  h1 {
+    // Crescer do jeito certo
+    color: #333333;
+    font-size: 28px;
+    font-family: "Bw Seido Raw";
+    font-weight: 700;
+    line-height: 36.96px;
+    word-wrap: break-word;
+    padding-bottom: 24px;
+  }
+
+  span {
+    // sem atalhos e entregando uma experiência excepcional para nossa equipe, parceiros e clientes. Buscamos gerar impacto positivo com nossas decisões de investimento, por isso todos os nossos produtos possuem filtros ambientais, sociais e de governança.​
+    color: #333333;
+    font-size: 16px;
+    font-family: "Neue Haas Unica W1G";
+    font-weight: 400;
+    line-height: 25.6px;
+    word-wrap: break-word;
+  }
+}
+
+.last-card-acre {
+  border-right: 1px solid #1d1d1d;
+}
+
+.equipe-qs {
+  background-color: #1d1d1d;
+  padding-bottom: 112px;
+  padding-top: 112px;
+}
+
+.equipe-title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
+
+  h1 {
+    // Equipe
+    color: white;
+    font-size: 34px;
+    font-family: "Bw Seido Raw";
+    font-weight: 700;
+    line-height: 44.88px;
+    word-wrap: break-word;
+  }
+}
+
+.text-equipe-cards {
+  z-index: 2;
+  position: absolute;
+  padding: 24px 32px 24px 32px;
+
+  h1 {
+    // Pedro Albuquerque
+    color: white;
+    font-size: 21px;
+    font-family: "Bw Seido Raw";
+    font-weight: 700;
+    line-height: 29.4px;
+    word-wrap: break-word;
+  }
+
+  span {
+    // Membro do Comitê de Investimentos
+    color: white;
+    font-size: 16px;
+    font-family: "Bw Seido Raw";
+    font-weight: 500;
+    line-height: 20px;
+    word-wrap: break-word;
+  }
+}
+
+.equipe-cards {
+  // border: 1px solid red;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.equipe-cards-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 24px;
+}
+
+.testimotionals {
+  // border: 1px solid red;
+
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 24px;
+}
+
+.testimotionals .card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0px;
+  background-color: #1d1d1d !important;
+
+  // box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.container-card-hover {
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+
+  padding-top: 24px;
+  padding-bottom: 12px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.container-card-hover .card-hover-qs {
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.container-card-hover .card-hover-qs .content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.5s;
+}
+
+.contentBx {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card-hover-qs .content {
+  width: 100%;
+  height: 100%;
+}
+
+.border-hover {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  padding-bottom: 12px;
+}
+
+.border-hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: #ffffff;
+  transition: width 0.7s ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.border-hover:hover::after {
+  width: 100%;
+  transform: scaleX(1);
+}
+
+.container-card-hover .card-hover-qs:hover .content {
+  transform: translateY(-47px);
+}
+
+.container-card-hover .card-hover-qs .sci {
+  position: absolute;
+  bottom: -27px;
+  display: flex;
+  width: 100%;
+}
+
+.container-card-hover .card-hover-qs .content .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container-card-hover .card-hover-qs .content .contentBx h3 {
+  color: white;
+  font-size: 21px;
+  font-family: "Bw Seido Raw";
+  font-weight: 700;
+  line-height: 29.4px;
+  word-wrap: break-word;
+  margin-bottom: 0px !important;
+}
+
+.contentBx span {
+  color: white;
+  font-size: 16px;
+  font-family: "Bw Seido Raw";
+  font-weight: 500;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+.container-card-hover .card-hover-qs .sci li {
+  list-style: none;
+  transform: translateY(40px);
+  transition: 0.5s;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0px !important;
+}
+
+.container-card-hover .card-hover-qs .sci {
+  padding: 0px !important;
+}
+
+.container-card-hover .card-hover-qs:hover .sci {
+  padding: 0px !important;
+}
+
+.container-card-hover .card-hover-qs:hover .sci li {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.container-card-hover .card-hover-qs .sci li a {
+  color: #fff;
+  align-items: center;
+  display: flex;
+  font-size: 16px;
+}
+
+.linkedin-card {
+  border-top: 1px solid white;
+  padding-top: 12px;
+  margin-top: 8px;
+  display: none;
+  transition: 0.7s;
+}
+
+.testimotionals .card .layer {
+  z-index: 1;
+  position: absolute;
+  top: calc(100% - 2px);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  transition: 0.5s;
+  opacity: 0.4;
+}
+
+.testimotionals .card:hover .layer {
+  top: 0;
+}
+
+.image {
+  width: 100%;
+  display: flex;
+  // justify-content: center;
+  justify-content: start;
+  align-items: flex-end;
+}
+
+.image::before {
+  content: "";
+  z-index: 1;
+  opacity: 0.7;
+  width: 100%;
+  height: 90%;
+  position: absolute;
+
+  background: rgb(0, 0, 0);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(255, 255, 255, 0) 55%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(255, 255, 255, 0) 55%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(255, 255, 255, 0) 55%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#ffffff", GradientType=1);
+}
+
+.banner-internas-last {
+  height: 58.151609553478714vh;
+
+  img {
+    height: 58.151609553478714vh !important;
+  }
+}
+
+.texts-banner-last {
+  // border: 1px solid red;
+  padding-bottom: 64px !important;
+}
+
+.percents-banner {
+  margin-top: 40px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 50px;
+  word-break: break-all;
+
+  .percents-content {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      // 6,3%
+      color: #fafafa;
+      font-size: 40px;
+      font-family: "Bennet Banner Extra Condensed";
+      font-weight: 700;
+      line-height: 52.8px;
+      word-wrap: break-word;
+    }
+
+    span {
+      // Mês
+      color: #fafafa;
+      font-size: 14px;
+      font-family: "Neue Haas Unica W1G";
+      font-weight: 400;
+      line-height: 22.4px;
+      word-wrap: break-word;
+    }
+  }
+}
+
+.fundos-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.fundos-carrosel {
+  width: 50%;
+  height: 500px;
+}
+
+.fundos-text {
+  // width: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+  h5 {
+    // Um fundo da TC Pandhora
+    color: #010101;
+    font-size: 18px;
+    font-family: "Bw Seido Raw";
+    font-weight: 700;
+    line-height: 25.2px;
+    word-wrap: break-word;
+  }
+
+  h1 {
+    // Com todo o expertise<br/>de Pedro Albuquerque
+    color: #8529e9;
+    font-size: 34px;
+    font-family: "Bw Seido Raw";
+    font-weight: 400;
+    line-height: 44.88px;
+    word-wrap: break-word;
+    padding-bottom: 40px;
+  }
+
+  span {
+    // O único fundo com Pedro Albuquerque, CEO do TC, no comitê de gestão. É para você que quer um trader multimilionário, com mais de 15 anos de atuação no mercado financeiro, tomando as melhores decisões em seu lugar.
+    color: #333333;
+    font-size: 16px;
+    font-family: "Neue Haas Unica W1G";
+    font-weight: 400;
+    line-height: 25.6px;
+    word-wrap: break-word;
+    padding-bottom: 40px;
+  }
+
+  a {
+    background-color: #8529e9;
+    padding: 16px;
+    // Quero Investir no TC Cosmos
+    color: white;
+    font-size: 16px;
+    font-family: "Bw Seido Raw";
+    font-weight: 500;
+    line-height: 20px;
+    word-wrap: break-word;
+    border-radius: 4px;
+    width: fit-content;
+  }
+}
+
+.container-fundos-infos {
+  padding-top: 50px;
+}
+
+.banner-fundos {
+  height: auto;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    height: 71.65109034267913vh;
+  }
+}
+
+.historico-fundos {
+  padding-top: 80px;
+}
+
+.historico-fundos-text {
+  padding-bottom: 80px;
+
+  .historico-fundo-text-content {
+    width: 50%;
+  }
+
+  h1 {
+    // Histórico de Performance
+    color: #8529e9;
+    font-size: 34px;
+    font-family: "Bw Seido Raw";
+    font-weight: 400;
+    line-height: 44.88px;
+    word-wrap: break-word;
+  }
+
+  h5 {
+    // TC Cosmos
+    color: #8529e9;
+    font-size: 34px;
+    font-family: "Bw Seido Raw";
+    font-weight: 700;
+    line-height: 44.88px;
+    word-wrap: break-word;
+  }
+
+  span {
+    // Criando fundos ideais para construção de patrimônio,<br/>com segurança e diversificação.
+    color: #010101;
+    font-size: 28px;
+    font-family: "Bw Seido Raw";
+    font-weight: 400;
+    line-height: 36.96px;
+    word-wrap: break-word;
+  }
+}
+
+.trade-content-fundos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trade-a {
+  display: flex;
+  gap: 8px;
+  padding-bottom: 40px;
+
+  a {
+    transition: 0.5s;
+    padding: 8px 16px 8px 16px;
+    background-color: #e4e4e4;
+    border-radius: 2px;
+
+    // Início
+    // color: #fafafa;
+    color: #6f6f6f;
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 19.6px;
+    word-wrap: break-word;
+  }
+}
+
+* {
+}
+
+.beneficios-title {
+  h1 {
+    // Benefícios
+    color: white;
+    font-size: 34px;
+    font-family: "Bw Seido Raw";
+    font-weight: 400;
+    line-height: 44.88px;
+    word-wrap: break-word;
+  }
+
+  h5 {
+    // e o que esperar
+    color: white;
+    font-size: 34px;
+    font-family: "Bw Seido Raw";
+    font-weight: 700;
+    line-height: 44.88px;
+    word-wrap: break-word;
+  }
+}
+
+.trade-chart {
+  padding-bottom: 80px;
+}
+
+.beneficios-fundos {
+  background-color: #1d1d1d;
+  padding-top: 80px;
+}
+
+.beneficios-title {
+  padding-bottom: 64px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.cards-beneficios-container {
+  // border: 1px solid red;
+  margin-bottom: -150px;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+
+  .cards-beneficios {
+    padding: 24px 40px 24px 40px;
+    // width: 288px;
+    height: auto;
+    width: 100%;
+    background-color: var(--text-grey-scale-01);
+
+    h1 {
+      // INDICADORES<br/>TÉCNICOS
+      color: #333333;
+      font-size: 21px;
+      font-family: "Bw Seido Raw";
+      font-weight: 700;
+      line-height: 29.4px;
+      word-wrap: break-word;
+      padding-bottom: 24px;
+      padding-top: 24px;
+    }
+
+    span {
+      // Também são utilizadas análises de fluxo de mercado, notícias e de gráficos, para determinar os melhores momentos de entradas nas posições.
+      color: #333333;
+      font-size: 14px;
+      font-family: "Neue Haas Unica W1G";
+      font-weight: 400;
+      line-height: 22.4px;
+      word-wrap: break-word;
+    }
+
+    img {
+      width: 40px;
+    }
+  }
+}
+
+.last-cards-beneficios {
+  background-color: #8529e9 !important;
+
+  h1 {
+    color: var(--text-white) !important;
+  }
+
+  span {
+    color: var(--text-white) !important;
+  }
+}
+
+.resultados-fundos {
+  margin-top: 180px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.resultados-title {
+  h1 {
+    // Resultados
+    color: #8529e9;
+    font-size: 34px;
+    font-family: "Bw Seido Raw";
+    font-weight: 700;
+    line-height: 44.88px;
+    word-wrap: break-word;
+  }
+}
+
+.infos-resultados {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: var(--text-grey-scale-01);
+}
+
+.infos-title {
+  padding-bottom: 64px;
+
+  h1 {
+    // Informações
+    color: #8529e9;
+    font-size: 34px;
+    font-family: "Bw Seido Raw";
+    font-weight: 700;
+    line-height: 44.88px;
+    word-wrap: break-word;
+  }
+}
+
+.content-infos {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.download-infos {
+  width: 50%;
+
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  // background-color: var(--text-grey-scale-02);
+  background-color: #e2e2e2;
+  border-radius: 8px;
+  height: fit-content;
+}
+
+.download-texts {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+  align-items: center;
+
+  img {
+    background-color: white;
+    padding: 6px;
+    border-radius: 4px;
+    width: 35px;
+  }
+}
+
+.texts-infos {
+  width: 50%;
+}
+
+.texts-infos-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--text-grey-scale-03);
+  padding-top: 16px;
+  padding-bottom: 8px;
+
+  span {
+    // Razão Social:
+    color: #333333;
+    font-size: 16px;
+    font-family: "Neue Haas Unica W1G";
+    font-weight: 400;
+    line-height: 25.6px;
+    word-wrap: break-word;
+  }
+
+  h1 {
+    // TC COSMOS FIC FIM
+    color: #333333;
+    font-size: 16px;
+    font-family: "Neue Haas Unica W1G";
+    font-weight: 700;
+    line-height: 25.6px;
+    word-wrap: break-word;
+  }
+}
+
+.comparativos-fundos {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: rgb(233, 233, 233);
+}
+
+.comparativos-title {
+  padding-bottom: 30px;
+
+  h1 {
+    color: #8529e9;
+    font-size: 34px;
+    font-family: "Bw Seido Raw";
+    font-weight: 700;
+    line-height: 44.88px;
+    word-wrap: break-word;
+  }
+}
+
+.comparativos-table tr {
+  border-bottom: 1px solid var(--text-grey-scale-05);
+
+  th {
+    color: #333333;
+    width: 0% !important;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 27px;
+    // word-wrap: break-word;
+    // word-break: break-all;
+    text-align: start !important;
+  }
+
+  td {
+    // word-break: break-all;
+    // 1.4-1.5 a.a.
+    width: 0px;
+    color: #333333;
+    font-size: 18px !important;
+    font-family: "Roboto" !important;
+    font-weight: 400 !important;
+    line-height: 27px !important;
+    word-wrap: break-word !important;
+
+    text-align: start !important;
+  }
+}
+
+.comparativos-table-row {
+  background-color: #8529e9 !important;
+
+  th {
+    color: var(--text-white) !important;
+  }
+
+  td {
+    color: var(--text-white) !important;
+  }
+}
+
+ul.container {
+  height: 494px !important;
+}
+
+.content-list-fundo {
+  padding: 24px;
+  display: flex;
+
+  h1 {
+    // Altamente diversificado
+    color: white;
+    font-size: 24px;
+    font-family: "Bw Seido Raw";
+    font-weight: 700;
+    line-height: 31.68px;
+    word-wrap: break-word;
+  }
+
+  span {
+    // Com um só aporte, você investe em bolsas globais e diversas classes de ativos, diminuindo o risco de se expor a apenas um mercado.
+    color: white;
+    font-size: 16px;
+    font-family: "Neue Haas Unica W1G";
+    font-weight: 400;
+    line-height: 25.6px;
+    word-wrap: break-word;
+  }
+}
+
+.contatos {
+  padding-bottom: 112px;
+}
+
+.contatos-title {
+  // border: 1px solid red;
+  padding-top: 40px;
+
+  h1 {
+    color: var(--text-main);
+    font-size: 34px;
+    font-family: var(--font-text-3);
+    font-weight: 700;
+    line-height: 44px;
+    word-wrap: break-word;
+    padding-bottom: 24px;
+  }
+
+  span {
+    color: var(-text-grey-scale-07);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-text-5);
+    line-height: 25px;
+  }
+}
+
+.infos-contato-container {
+  padding-top: 40px;
+  display: flex;
+  gap: 24px;
+}
+
+.contatos-main {
+  width: 50%;
+}
+
+.informacoes-main {
+  width: 50%;
+}
+
+.informacoes-content {
+  padding: 40px;
+  border-radius: 4px;
+  background-color: var(--text-grey-scale-02);
+
+  h1 {
+    color: var();
+    font-size: 28px;
+    font-family: var();
+    font-weight: 700;
+    line-height: 36px;
+    padding-bottom: 24px;
+  }
+
+  span {
+    color: var(--text-grey-scale-07);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-text-5);
+    line-height: 24px;
+  }
+
+  h5 {
+    padding-top: 24px;
+    color: var(--text-grey-scale-07);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-text-5);
+    line-height: 25px;
+  }
+
+  h4 {
+    color: var(--text-grey-scale-07);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-text-5);
+    line-height: 24px;
+    padding-bottom: 24px !important;
+  }
+}
+
+.icons-informacoes {
+  margin-bottom: 16px;
+  display: flex;
+  gap: 10px;
+
+  img {
+    width: 24px;
+  }
+
+  span {
+    color: var(--text-grey-scale-07);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-text-5);
+    line-height: 24px;
+  }
+}
+
+.quadro-last {
+  display: none;
+}
+
+.content-infos-contato {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+
+  span {
+    color: var(--text-black);
+    font-size: 14px;
+    // font-family: var(--font-text-6);
+    padding-bottom: 8px;
+    line-height: 19px;
+    word-wrap: break-word;
+  }
+
+  input {
+    border-radius: 2px;
+    border: 1px solid #333333;
+    padding: 12px;
+    font-family: "Arial";
+  }
+
+  select {
+    padding: 12px;
+  }
+}
+
+.checkbox-1 {
+  padding-top: 16px;
+}
+
+.checkbox-2 {
+  padding-top: 16px;
+}
+
+.recaptcha {
+  padding-top: 24px;
+}
+
+.btns-contato {
+  padding-top: 24px;
+  display: flex;
+  gap: 24px;
+
+  .limpar-contato {
+    color: var(--text-black);
+    font-family: var(--font-text-3);
+    font-size: 16px;
+    padding: 16px;
+    border-radius: 4px;
+    border: 1px solid var(--text-black);
+  }
+
+  .entrar-contato {
+    font-family: var(--font-text-3);
+    font-size: 16px;
+    padding: 16px;
+    border-radius: 4px;
+    color: var(--text-white);
+    background-color: var(--text-main);
+  }
+}
+
+.filtro-form-main {
+  padding-top: 40px;
+}
+
+.accordion {
+  margin-top: 0px !important;
+}
+
+.filtro-form {
+  padding-bottom: 80px;
+  margin-bottom: 0px !important;
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.filtros-pag {
+  display: flex;
+  gap: 16px;
+}
+
+.filtros-title {
+  h1 {
+    color: var(--text-main);
+    font-size: 34px;
+    font-family: var();
+    font-weight: 700;
+    line-height: 44px;
+  }
+}
+
+.filtros-pag {
+  label {
+    color: var(--text-grey-scale-04);
+    font-family: var(--font-text-6);
+    font-size: 16px !important;
+    font-weight: 400;
+    line-height: 15px;
+    padding-bottom: 8px !important;
+  }
+
+  select {
+    padding: 12px;
+    width: 255px !important;
+  }
+}
+
+.downloads-doc {
+  padding-bottom: 112px;
+}
+
+.mySwiper-cosmos-last {
+  display: none;
+}
+
+@media (max-width: 1140px) {
+  .mySwiper-cosmos-last {
+    display: block;
+  }
+
+  .mySwiper-cosmos {
+    display: none;
+  }
+
+  .slide-cosmos-last {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      height: 71.65109034267913vh !important;
+    }
+  }
+
+  .invista-fundos-home {
+    padding-top: 180px;
+  }
+
+  .text-swiper-cosmos-last {
+    width: 100%;
+    z-index: 1;
+    // padding-left: 80px;
+    // padding-right: 80px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+    h4 {
+      // Renda variável longo prazo
+      color: var(--text-white);
+      font-size: 14px;
+      font-family: var(--font-text-5);
+      font-weight: 700;
+      line-height: 22.4px;
+      word-wrap: break-word;
+
+      padding-bottom: 24px !important;
+    }
+
+    h1 {
+      color: var(--text-white);
+      font-size: 56px;
+      font-family: var(--font-text-4);
+      font-weight: 800;
+      line-height: 61.6px;
+      word-wrap: break-word;
+      padding-bottom: 8px;
+    }
+
+    h3 {
+      // Um fundo da TC Pandhora
+      color: var(--text-grey-scale-02);
+      font-size: 22px;
+      font-family: var(--font-text-3);
+      font-weight: 400;
+      line-height: 29.04px;
+      word-wrap: break-word;
+
+      padding-bottom: 40px !important;
+      margin-bottom: 0px !important;
+    }
+
+    span {
+      // Lorem ipsum dolor sit amet consectetur. Ultrices eget placerat fames cras est aenean. Sed bibendum pulvinar mauris volutpat mollis felis.
+      color: var(--text-grey-scale-03);
+      font-size: 16px;
+      font-family: var(--font-text-5);
+      font-weight: 400;
+      line-height: 25.6px;
+      word-wrap: break-word;
+      padding-bottom: 40px !important;
+    }
+
+    a {
+      padding: 12px;
+      border-radius: 2px;
+      // Investir no TC Cosmos
+      color: var(--text-white);
+      font-size: 14px;
+      font-family: var(--font-text-3);
+      font-weight: 500;
+      line-height: 17.5px;
+      word-wrap: break-word;
+      background-color: var(--text-main);
+      width: fit-content;
+    }
+  }
+
+  .ghost-home-carrosel-last {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 85%
+    );
+    background: -webkit-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 85%
+    );
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 85%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#ffffff", GradientType=1);
+  }
+
+  .swiper-pagination-cosmos-last {
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    justify-content: end;
+    padding-right: 80px;
+    padding-bottom: 40px;
+
+    .swiper-pagination-bullet {
+      transition: 0.5s ease-in-out;
+      border-radius: 4px !important;
+      background-color: var(--text-system-disabled);
+    }
+
+    .swiper-pagination-bullet-active {
+      transition: 0.5s ease-in-out;
+      width: 80px;
+      border-radius: 4px !important;
+    }
+  }
+
+  .content-fundo-home {
+    flex-direction: column;
+    padding-left: 72px;
+    padding-right: 72px;
+    width: 100%;
+  }
+
+  .text-invista-home {
+    padding-top: 0;
+    padding-bottom: 16px;
+  }
+
+  .section-pandhora {
+    margin-top: 0;
+  }
+
+  .text-fundo-home {
+    width: 100% !important;
+  }
+
+  .ghost-fundo-home {
+    display: none;
+  }
+
+  .itens-fundo-home {
+    width: 100%;
+    word-break: break-all;
+  }
+
+  .text-invista-home {
+    // padding-top: 680px;
+    padding-right: 0px;
+  }
+
+  .invista-fundos-home {
+    flex-direction: column;
+  }
+
+  .img-invista img {
+    width: 100%;
+    position: relative !important;
+  }
+
+  .accordion-home {
+    padding-top: 80px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .nossos-fundos-home {
+    padding-top: 80px;
+  }
+
+  .footer-home {
+    padding-top: 40px;
+  }
+
+  .img-invista img {
+    margin-top: 0;
+  }
+
+  .section-pandhora {
+    padding-bottom: 80px !important;
+  }
+
+  .footer-last-texts {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .emails-footer-last {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+
+    span {
+      // dpo@pandhora.com
+      color: #fafafa;
+      font-size: 16px;
+      font-family: var(--font-text-5);
+      font-weight: 400;
+      line-height: 25.6px;
+      word-wrap: break-word;
+    }
+  }
+
+  .anbima-footer-last {
+    img {
+      width: 94px;
+    }
+  }
+
+  .footer-sobre {
+    border-bottom: none !important;
+  }
+
+  .footer-sobre h5 {
+    color: #666666 !important;
+  }
+
+  .footer-prisma {
+    display: none;
+  }
+
+  .contato-footer-last {
+    padding-top: 32px;
+    display: flex;
+    gap: 14px;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding-bottom: 24px;
+  }
+
+  .footer-texts {
+    display: none;
+  }
+
+  .icons-footer-pandhora {
+    display: none !important;
+  }
+
+  .icons-social-last {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+
+    img {
+      width: 32px;
+    }
+  }
+
+  .footer-last-itens {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .mapa-site-last {
+    display: flex;
+    width: 100%;
+  }
+
+  .logos-footer {
+    border-bottom: none !important;
+    padding-bottom: 24px;
+  }
+
+  .collapse-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    justify-content: center;
+    gap: 8px;
+
+    span {
+      color: #fafafa;
+      font-size: 14px;
+      font-family: var(--font-text-5);
+      font-weight: 400;
+      line-height: 22.4px;
+      word-wrap: break-word;
+    }
+  }
+
+  .list-menu-footer {
+    display: flex;
+  }
+
+  .container-investir-home .txt-investir-home h1 {
+    width: auto !important;
+  }
+
+  .footer-itensprisma-last {
+    display: block;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 40px;
+
+    span {
+      color: #fafafa;
+      font-size: 14px;
+      font-family: var(--text-font-5);
+      font-weight: 400;
+      line-height: 22.4px;
+      word-wrap: break-word;
+    }
+
+    .logo-prisma-last {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 40px;
+
+      img {
+        width: 101px;
+      }
+    }
+  }
+
+  .button-mapa-site-mobile {
+    background-color: transparent !important;
+    border: none !important;
+  }
+
+  .collapsing {
+    margin: 0;
+    padding: 0;
+  }
+
+  .collapse {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    a {
+      color: var(--text-white);
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .content-cards-home {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    .cards-home {
+      border-radius: 4px;
+      width: 100% !important;
+      height: 100%;
+      word-break: break-all;
+    }
+  }
+}
+
+@media (max-width: 588px) {
+  .swiper-pagination-cosmos-last {
+    justify-content: center;
+    padding-right: 0;
+  }
+
+  .container-investir-home .txt-investir-home h1 {
+    line-height: 120%;
+  }
+
+  .text-invista-home h1 {
+    line-height: 120%;
+  }
+
+  .navbar-btns-after {
+    padding-top: 16px;
+    display: none !important;
+
+    .content-btns-after {
+      display: flex;
+      gap: 16px;
+      width: 100%;
+    }
+
+    .btn-navbar-1 {
+      a {
+        color: var(--text-white) !important;
+      }
+
+      border-radius: 4px;
+      text-align: center;
+      justify-content: center;
+      background-color: var(--text-main);
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding: 12px;
+      gap: 12px;
+    }
+
+    .btn-navbar-2 {
+      a {
+        color: var(--text-white) !important;
+      }
+
+      border-radius: 4px;
+      text-align: center;
+      justify-content: center;
+      width: 50%;
+      background-color: #010101;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+  }
+
+  .content-cards-home {
+    padding-bottom: 112px;
+  }
+
+  .slide-cosmos-last {
+    img {
+      height: 85.65109vh !important;
+    }
+
+    a {
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  .text-swiper-cosmos-last {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .content-card-fundos-home {
+    h1 {
+      font-size: 36px !important;
+    }
+  }
+
+  .section-pandhora {
+    position: relative;
+    z-index: 10;
+  }
+
+  .quadro-last {
+    z-index: 2;
+  }
+
+  .accordion-home {
+    h1 {
+      font-size: 36px !important;
+      padding-bottom: 14px !important;
+
+      span {
+        font-size: 36px !important;
+      }
+    }
+  }
+
+  .nossos-fundos-home {
+    h1 {
+      font-size: 56px;
+
+      span {
+        font-size: 56px;
+      }
+    }
+  }
+
+  .invista-fundos-home {
+    padding-top: 80px;
+  }
+
+  .text-invista-home {
+    padding-bottom: 64px;
+
+    h1 {
+      font-size: 56px;
+
+      span {
+        font-size: 56px;
+      }
+    }
+
+    span {
+      font-size: 17px;
+    }
+  }
+
+  .itens-fundo-home {
+    gap: 16px !important;
+  }
+
+  .ghost-fundo-home-last {
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    // height: 1425px;
+    // border: 5px solid red;
+    background-color: var(--text-main);
+  }
+
+  .content-fundo-home {
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 64px;
+  }
+
+  .card-carrosel-home span {
+    font-size: 16px;
+  }
+
+  .btn1 {
+    display: none;
+  }
+
+  .btns-last-home {
+    display: flex !important;
+    align-items: center;
+    border-radius: 4px;
+    padding: 16px;
+    width: 100%;
+    justify-content: center;
+    word-break: break-all;
+    background-color: var(--pure-black);
+    color: var(--text-white);
+    font-size: 16px;
+    font-family: var(--font-text-5);
+    font-weight: 500;
+    line-height: 20px;
+    word-wrap: break-word;
+  }
+
+  .btn2 {
+    display: none;
+  }
+
+  .content-fundo-home .text-fundo-home h2 {
+    font-size: 56px;
+  }
+
+  .container-investir-home .txt-investir-home h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 56px;
+    font-weight: 800;
+  }
+
+  .content-fundo-home .text-fundo-home a {
+    display: none;
+  }
+
+  .gestao-invest-home {
+    padding-left: 0 !important;
+  }
+
+  .container-investir-home {
+    padding-top: 112px !important;
+  }
+
+  #last-a-home {
+    width: 100% !important;
+    text-align: center;
+  }
+}
+
+@media (max-width: 524px) {
+  .content-fundo-home {
+    img {
+      width: 44px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .footer-last-itens {
+    flex-direction: column;
+  }
+
+  .content-card-fundos-home {
+    width: 320px !important;
+    height: fit-content;
+  }
+
+  .icons-social-last {
+    margin-top: 24px;
+  }
+
+  .anbima-footer-last img {
+    margin-top: 40px;
+  }
+
+  .contato-footer-last {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 727px) {
+  .quadro-last {
+    display: none !important;
+  }
+
+  .quadro-mobile-container {
+    position: relative;
+    z-index: 10;
+  }
+
+  .quadro-mobile {
+    padding-top: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    .imgs-quadro-mobile {
+      display: flex;
+      gap: 16px;
+
+      img {
+        width: 140px;
+      }
+    }
+
+    .text-quadro-mobile {
+      h5 {
+        // Onde Investir
+        color: #333333;
+        font-size: 16px;
+        font-family: var(--font-text-5);
+        font-weight: 400;
+        line-height: 25.6px;
+        word-wrap: break-word;
+        padding-top: 16px !important;
+        padding-bottom: 16px !important;
+        margin: 0 !important;
+      }
+
+      h1 {
+        color: #010101;
+        font-size: 24px;
+        font-family: Bw Seido Raw;
+        font-weight: 400;
+        line-height: 31.68px;
+        word-wrap: break-word;
+        padding-bottom: 24px !important;
+
+        span {
+          color: #010101;
+          font-size: 24px;
+          font-family: Bw Seido Raw;
+          font-weight: 700;
+          line-height: 31.68px;
+          word-wrap: break-word;
+        }
+      }
+
+      h6 {
+        // Já é cliente?
+        color: #010101;
+        font-size: 19px;
+        font-family: Bw Seido Raw;
+        font-weight: 400;
+        line-height: 26.6px;
+        word-wrap: break-word;
+
+        a {
+          text-decoration: underline;
+        }
+      }
+
+      h4 {
+        color: #010101;
+        font-size: 17px;
+        font-family: Bw Seido Raw;
+        font-weight: 400;
+        line-height: 22.44px;
+        word-wrap: break-word;
+      }
+
+      h3 {
+        color: #010101;
+        font-size: 17px;
+        font-family: Bw Seido Raw;
+        font-weight: 700;
+        line-height: 22.44px;
+        word-wrap: break-word;
+      }
+    }
+  }
+}
+
+@media (max-width: 1212px) {
+  .img-banner-interna {
+    img {
+      height: 311px;
+    }
+  }
+
+  .texts-banner-interna {
+    padding-bottom: 80px;
+
+    span {
+      font-size: 19px;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 56px;
+      font-weight: 700;
+    }
+  }
+
+  .overlay-fundos {
+    height: 58.1516095535vh !important;
+  }
+
+  .overlay {
+    height: 311px;
+    background: rgb(1, 1, 1);
+    background: linear-gradient(
+      0deg,
+      rgba(1, 1, 1, 1) 0%,
+      rgba(0, 0, 0, 0.34217436974789917) 100%
+    );
+  }
+}
+
+@media (max-width: 768px) {
+  .infos-contato-container {
+    flex-direction: column;
+  }
+
+  .first-pagination {
+    display: none;
+  }
+
+  .pagination-internas {
+    padding-top: 28px;
+  }
+
+  .pagination-last {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    img {
+      width: 22px;
+    }
+  }
+
+  .contatos-main {
+    width: 100%;
+  }
+
+  .informacoes-main {
+    width: 100%;
+    padding-top: 44px;
+  }
+}
+
+@media (max-width: 948px) {
+  .filtro-form {
+    flex-direction: column;
+  }
+
+  .filtros-pag {
+    flex-direction: column;
+    padding-top: 32px;
+
+    select {
+      width: 100% !important;
+    }
+  }
+}
+
+@media (max-width: 842px) {
+  .gestao-qs {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .testimotionals {
+    grid-template-columns: auto auto !important;
+  }
+
+  .gestao-1 {
+    width: 100%;
+  }
+
+  .gestao-2 {
+    width: 100%;
+
+    h3 {
+      margin: 0 !important;
+    }
+  }
+
+  .cards-acreditamos-container {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .cards-acreditamos {
+    border: 1px solid black;
+  }
+
+  .parallax-inner {
+    min-height: 439px;
+  }
+
+  .acreditamos-title {
+    padding-top: 321px;
+    justify-content: start;
+  }
+}
+
+@media (max-width: 1248px) {
+  .promessa-qs {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .card-promessas {
+    width: 100%;
+  }
+
+  .card-promessas-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1112px) {
+  .testimotionals {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .testimotionals {
+    display: none;
+  }
+
+  .testimotionals-carrosel {
+    display: block;
+  }
+
+  .equipe-title {
+    padding-bottom: 40px;
+  }
+
+  .swiper-pagination-equipe {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+
+    .swiper-pagination-bullet {
+      border-radius: 4px !important;
+      width: 24px;
+      background-color: var(--text-white);
+      transition: 0.7s;
+    }
+
+    .swiper-pagination-bullet-active {
+      transition: 0.7s;
+      background-color: var(--pure-black);
+      width: 80px;
+    }
+  }
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.card-fundos {
+  position: absolute;
+  width: 100%;
+
+  margin: auto;
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+
+.container-carrosel-fundos {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  display: flex;
+}
+
+.cards-fundos-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // margin-bottom: 20px;
+}
+
+#item-1:checked ~ .cards-fundos-content #song-3,
+#item-2:checked ~ .cards-fundos-content #song-1,
+#item-3:checked ~ .cards-fundos-content #song-2 {
+  transform: translateY(-100%);
+  margin-bottom: 24px;
+  padding-right: 55px;
+  z-index: 0;
+  transition: 0.7s;
+}
+
+#item-1:checked ~ .cards-fundos-content #song-2,
+#item-2:checked ~ .cards-fundos-content #song-3,
+#item-3:checked ~ .cards-fundos-content #song-1 {
+  transform: translateY(100%);
+  margin-top: 24px;
+  padding-right: 55px;
+  z-index: 0;
+  transition: 0.7s;
+}
+
+#item-1:checked ~ .cards-fundos-content #song-1,
+#item-2:checked ~ .cards-fundos-content #song-2,
+#item-3:checked ~ .cards-fundos-content #song-3 {
+  transform: translatex(0) scale(1);
+  opacity: 1;
+  z-index: 1;
+  transition: 0.7s;
+}
+
+#item-1:checked ~ .cards-fundos-content #song-2 .itens-carrosel-fundos {
+  background-color: var(--text-grey-scale-02) !important;
+}
+
+#item-1:checked ~ .cards-fundos-content #song-3 .itens-carrosel-fundos {
+  background-color: var(--text-grey-scale-02) !important;
+}
+
+#item-2:checked ~ .cards-fundos-content #song-1 .itens-carrosel-fundos {
+  background-color: var(--text-grey-scale-02) !important;
+}
+
+#item-2:checked ~ .cards-fundos-content #song-3 .itens-carrosel-fundos {
+  background-color: var(--text-grey-scale-02) !important;
+}
+
+#item-3:checked ~ .cards-fundos-content #song-2 .itens-carrosel-fundos {
+  background-color: var(--text-grey-scale-02) !important;
+}
+
+#item-3:checked ~ .cards-fundos-content #song-1 .itens-carrosel-fundos {
+  background-color: var(--text-grey-scale-02) !important;
+}
+
+#item-2:checked ~ .player #test {
+  transform: translateY(0);
+}
+
+#item-2:checked ~ .player #test {
+  transform: translateY(-40px);
+}
+
+#item-3:checked ~ .player #test {
+  transform: translateY(-80px);
+}
+
+.itens-carrosel-fundos {
+  background-color: var(--text-main);
+  padding: 24px;
+  border-radius: 4px;
+  display: flex;
+  align-items: start;
+  gap: 24px;
+
+  img {
+    width: 44px;
+  }
+
+  .texts-itens-carrosel-fundos {
+    h1 {
+      color: var(--text-white);
+      font-size: 24px;
+      font-weight: 700;
+      font-family: var();
+      line-height: 31px;
+      padding-bottom: 4px !important;
+    }
+
+    span {
+      color: var(--text-white);
+      font-family: var();
+      font-weight: 400;
+      line-height: 25px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .fundos-content {
+    flex-direction: column;
+  }
+
+  .fundos-text {
+    width: 100%;
+  }
+
+  .fundos-carrosel {
+    width: 100%;
+  }
+
+  .historico-fundos-text .historico-fundo-text-content {
+    width: 100%;
+  }
+
+  .beneficios-title {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .cards-beneficios-container {
+    flex-direction: column;
+  }
+
+  .content-infos {
+    flex-direction: column;
+  }
+
+  .texts-infos {
+    width: 100%;
+  }
+
+  .download-infos {
+    width: 100%;
+  }
+
+  .download-texts {
+    gap: 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  .percents-banner {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .texts-banner-last {
+    padding-bottom: 40px !important;
+  }
+
+  // .percents-banner {
+  //   h1 {
+  //     font-size: 22px !important;
+  //     font-weight: 400;
+  //     line-height: 29px;
+  //   }
+
+  //   span {
+  //     font-size: 12px !important;
+  //     font-weight: 400;
+  //   }
+  // }
+}
+
+@media (max-width: 464px) {
+  .percents-banner {
+    grid-row-gap: 32px;
+    grid-column-gap: 22px;
+  }
+
+  .percents-banner {
+    h1 {
+      font-size: 22px !important;
+      font-weight: 400;
+      line-height: 29px;
+    }
+
+    span {
+      font-size: 12px !important;
+      font-weight: 400;
+    }
+  }
+
+  // .banner-internas-last img {
+  //   height: 422px !important;
+  // }
+}
+
+@media (max-width: 600px) {
+  .banner-internas-last {
+    height: 500px !important;
+
+    img {
+      height: 500px !important;
+    }
+  }
+
+  // .overlay {
+  //   height: 500px !important;
+  // }
+
+  .cards-fundos-content {
+    padding-top: 80px;
+    padding-bottom: 120px;
+  }
+}
+
+@media (max-width: 498px) {
+  .trade-a {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .tab-link {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+}
+
+@media (max-width: 438px) {
+  .fundos-text {
+    padding-bottom: 80px;
+  }
+
+  .banner-fundos {
+    padding-top: 80px;
+  }
+}
+
+.withelabel {
+  height: 100vh;
+  height: fit-content !important;
+}
+
+.witchelabel-container {
+  display: flex;
+  justify-content: space-between;
+
+  .w1 {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .bg-img-w1 {
+    img {
+      width: 100%;
+      height: 100vh;
+
+      object-fit: cover;
+    }
+  }
+
+  .w2 {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .bg-img-w2 {
+    img {
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+    }
+  }
+}
+
+.overlay-w1 {
+  background: rgb(133, 41, 233);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(133, 41, 233, 0.7399334733893557) 100%,
+    rgba(133, 41, 233, 0.48503151260504207) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(133, 41, 233, 0.7399334733893557) 100%,
+    rgba(133, 41, 233, 0.48503151260504207) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(133, 41, 233, 0.7399334733893557) 100%,
+    rgba(133, 41, 233, 0.48503151260504207) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8529e9",endColorstr="#8529e9",GradientType=1);
+  color: white;
+  position: absolute;
+  width: 50%;
+  height: 100vh;
+}
+
+.overlay-w2 {
+  // background: rgba(255, 255, 255, 0);
+  // box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  // backdrop-filter: blur(14.6px);
+  // -webkit-backdrop-filter: blur(14.6px);
+
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.2px);
+  -webkit-backdrop-filter: blur(11.2px);
+
+  position: absolute;
+  height: 100vh;
+  width: 50%;
+}
+
+.content-w2 {
+  position: absolute;
+
+  z-index: 2;
+  height: 100vh;
+  width: 50%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.img-w2 {
+  img {
+    width: 173px;
+  }
+}
+
+.title-w2 {
+  border-bottom: 1px solid white;
+  padding-bottom: 40px;
+  h1 {
+    // Invista nos fundos da Pandhora
+    color: var(--text-white);
+    font-size: 72px;
+    font-family: var(--font-text-4);
+    font-weight: 800;
+    line-height: 86.4px;
+    word-wrap: break-word;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  span {
+    // Os fundos da Pandhora são ideais para diversificar sua carteira, unindo segurança e rentabilidade. Você pode investir diretamente conosco através da nossa plataforma.
+    color: var(--text-grey-scale-02);
+    font-size: 16px;
+    font-family: var(--font-text-5);
+    font-weight: 400;
+    line-height: 25.6px;
+    word-wrap: break-word;
+  }
+
+  a {
+    margin-top: 40px;
+    display: flex;
+    padding: 16px;
+    background-color: var(--text-main);
+    width: fit-content;
+    align-items: center;
+    // Quero abrir uma conta
+    color: var(--text-white);
+    font-size: 16px;
+    font-family: var(--font-text-3);
+    font-weight: 500;
+    line-height: 20px;
+    word-wrap: break-word;
+    gap: 12px;
+    border-radius: 4px;
+
+    img {
+      width: 20px;
+    }
+  }
+}
+
+.cards-w1-container {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-w1 {
+  position: absolute;
+  padding-top: 120px;
+  // padding-left: 50px;
+  // padding-right: 40px;
+  z-index: 2;
+  height: 100vh;
+  width: 50%;
+
+  .link-w1 {
+    padding-top: 40px;
+    padding-left: 16px;
+
+    a {
+      background-color: var(--text-black);
+      padding: 12px;
+      word-break: break-all;
+      border-radius: 4px;
+      // Investir no TC Cosmos
+      color: var(--text-white);
+      font-size: 14px;
+      font-family: var(--font-text-3);
+      font-weight: 500;
+      line-height: 17.5px;
+      word-wrap: break-word;
+    }
+  }
+
+  .cards-w1 {
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: var(--text-main);
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    gap: 16px;
+
+    img {
+      width: 56px;
+    }
+
+    span {
+      // Gestão Especializada
+      color: var(--text-white);
+      font-size: 18px;
+      font-family: var(--font-text-3);
+      font-weight: 700;
+      line-height: 25.2px;
+      word-wrap: break-word;
+    }
+  }
+
+  .title-w1 {
+    h4 {
+      // Invista no TC Cosmos
+      color: var(--text-white);
+      font-size: 24px;
+      font-family: var(--font-text-3);
+      font-weight: 400;
+      line-height: 31.68px;
+      word-wrap: break-word;
+    }
+
+    h5 {
+      // Com todo o expertise de Pedro Albuquerque
+      color: var(--grey-scale-02);
+      font-size: 24px;
+      font-family: var(--font-text-3);
+      font-weight: 700;
+      line-height: 31.68px;
+      word-wrap: break-word;
+      margin: 0px !important;
+      padding-bottom: 40px;
+    }
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.with-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: black !important;
+  height: 100vh;
+}
+
+.with1 {
+  width: 50%;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.with2 {
+  width: 50%;
+  border: 1px solid black;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.overlay-with1 {
+  z-index: 1;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+
+  background: rgb(133, 41, 233);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(133, 41, 233, 0.7399334733893557) 100%,
+    rgba(133, 41, 233, 0.48503151260504207) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(133, 41, 233, 0.7399334733893557) 100%,
+    rgba(133, 41, 233, 0.48503151260504207) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(133, 41, 233, 0.7399334733893557) 100%,
+    rgba(133, 41, 233, 0.48503151260504207) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8529e9",endColorstr="#8529e9",GradientType=1);
+}
+.overlay-with2 {
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(14.6px);
+  -webkit-backdrop-filter: blur(14.6px);
+  width: 50%;
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+}
+
+.title-with {
+  padding-top: 40px;
+
+  h1 {
+    // Invista pela sua corretora:
+    color: var(--text-white);
+    font-size: 14px;
+    font-family: var(--font-text-3);
+    font-weight: 400;
+    line-height: 22.4px;
+    word-wrap: break-word;
+  }
+}
+
+.parceiros-with-cards {
+  margin-top: 16px;
+
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 9px;
+}
+
+.border-fundos-content {
+  border: 1px solid var(--text-main);
+  height: 100%;
+  width: 1px;
+  z-index: -99999;
+  position: absolute;
+  margin-left: 20px;
+
+  .ball-fundos-content1 {
+    background-color: var(--text-main);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-left: -7px;
+    margin-top: -3px;
+  }
+
+  .ball-fundos-content2 {
+    background-color: var(--text-main);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-left: -7px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -3px;
+  }
+}
+
+@media (max-width: 522px) {
+  #song-1 {
+    display: none;
+  }
+
+  #song-2 {
+    transition: 2s ease !important;
+    transform: translatex(0) scale(1) translateY(67%) !important;
+  }
+
+  #song-3 {
+    transform: translateY(-39%) !important;
+    transition: 2s ease !important;
+  }
+
+  #item-1:checked ~ .cards-fundos-content #song-3 {
+    padding-right: 0px !important;
+  }
+
+  #item-2:checked ~ .cards-fundos-content #song-2 {
+    transition: 2s ease !important;
+  }
+
+  #item-2:checked ~ .cards-fundos-content #song-3 {
+    transition: 2s ease !important;
+  }
+
+  #item-3:checked ~ .cards-fundos-content #song-2 {
+    padding-right: 0px !important;
+    margin-bottom: 0px !important;
+    transition: 2s ease !important;
+  }
+
+  #item-1:checked ~ .cards-fundos-content #song-2,
+  #item-2:checked ~ .cards-fundos-content #song-3,
+  #item-3:checked ~ .cards-fundos-content #song-1 {
+    transform: translateY(-100%);
+  }
+
+  #item-1:checked ~ .cards-fundos-content #song-2,
+  #item-2:checked ~ .cards-fundos-content #song-3,
+  #item-3:checked ~ .cards-fundos-content #song-1 {
+    margin-top: -24px;
+    padding-right: 0;
+  }
+
+  // .cards-fundos-content {
+  //   padding-bottom: 0px;
+  // }
+}
+
+.logo-white-home {
+  display: none;
+}
+
+.icon-pandora-2 {
+  display: none;
+}
+
+[data-theme="dark"] {
+  .logo-white-home {
+    display: block;
+    width: 200px;
+  }
+
+  .img-invista img {
+    filter: brightness(1000%);
+  }
+
+  .menu-bar {
+    background-color: white !important;
+
+    .nav-link {
+      color: #1d1d1d;
+    }
+
+    .nav-link:hover {
+      color: var(--text-main) !important;
+    }
+
+    .icon-busca:before {
+      color: #1d1d1d;
+    }
+
+    .logo-white-home {
+      filter: brightness(0%);
+    }
+
+    // .logo-black-home {
+    //   display: flex !important;
+    // }
+  }
+
+  .icon-pandora-1 {
+    display: none;
+  }
+
+  .mobile-menu .institucional-and-language .flex-relacoes-institucional p {
+    color: white;
+  }
+
+  .mobile-menu .institucional-and-language .flex-relacoes-institucional > a {
+    color: white;
+  }
+
+  .mobile-menu .menu-tools .div-pesquisar-mobile input {
+    border: 1px solid white;
+    border-radius: 4px;
+  }
+
+  .mobile-menu .menu-tools .div-pesquisar-mobile input::placeholder {
+    color: white;
+  }
+
+  .card-carrosel-home {
+    background-color: transparent;
+  }
+
+  .section-pandhora {
+    background-color: #1d1d1d;
+  }
+
+  .text-invista-home h1 {
+    color: white;
+  }
+
+  .text-invista-home h1 span {
+    color: white;
+  }
+
+  .text-invista-home span {
+    color: white;
+  }
+
+  .nossos-fundos-home h1 {
+    color: white;
+
+    span {
+      color: white;
+    }
+  }
+
+  .content-card-fundos-home {
+    background-color: white;
+
+    h5 {
+      color: #1d1d1d;
+    }
+
+    h1 {
+      color: #1d1d1d;
+    }
+  }
+
+  .content-card-fundos-home:hover span {
+    color: #1d1d1d;
+  }
+
+  .content-card-fundos-home:hover .infos-card-fundos-home h5 {
+    color: #1d1d1d;
+  }
+
+  .content-card-fundos-home:hover .data-infos-cards-fundos-home h5 {
+    color: #1d1d1d;
+  }
+
+  .content-fundo-home .text-fundo-home a {
+    background-color: #1d1d1d;
+  }
+
+  .content-card-fundos-home:hover a {
+    color: white;
+    background-color: #333333;
+    transition: 0.5s;
+  }
+
+  // .swiper-pagination-fundos .swiper-pagination-bullet {
+  //   background-color: white;
+  // }
+
+  .accordion_header span {
+    color: white;
+  }
+
+  .accordion_content p {
+    color: #1d1d1d;
+  }
+
+  .searchbox .input-group .input-group-text button [class^="icon-"]::before {
+    color: white;
+  }
+
+  .icon-pandora-2 {
+    display: block;
+    width: 40px !important;
+  }
+
+  .menu-bar .toggle-mobile-menu span {
+    background-color: #1d1d1d !important;
+  }
+
+  .menu-bar
+    .mobile-menu-div.active
+    .mobile-menu
+    .toggle-mobile-menu
+    span::before {
+    background-color: white !important;
+  }
+
+  .menu-bar .mobile-menu-div.active .mobile-menu .toggle-mobile-menu span {
+    background-color: white !important;
+  }
+
+  .menu-bar .toggle-mobile-menu span::after,
+  .menu-bar .toggle-mobile-menu span::before {
+    background-color: #1d1d1d;
+  }
+
+  .section-cards-home {
+    background-color: #1d1d1d;
+  }
+
+  .last-card-home {
+    border: 1px solid white !important;
+  }
+
+  .nav-link:focus,
+  .nav-link:hover {
+    color: white !important;
+  }
+
+  .menu-bar .nav-link:focus,
+  .menu-bar .nav-link:hover {
+    color: #1d1d1d !important;
+  }
+
+  .container-investir-home span {
+    color: white;
+  }
+
+  .quadro-mobile .text-quadro-mobile h6 a {
+    color: white;
+  }
+
+  .img-promessa-2 {
+    display: block;
+  }
+
+  .img-promessa-1 {
+    display: none;
+  }
+
+  .quadro-last {
+    background-color: #1d1d1d;
+  }
+
+  .icon-busca:before {
+    color: white;
+  }
+
+  .logo-black-home {
+    display: none;
+  }
+
+  .container-investir-home .txt-investir-home h1 {
+    color: white;
+  }
+
+  .text-invista-home span {
+    color: white !important;
+  }
+
+  .container-investir-home span {
+    color: white !important;
+  }
+
+  .gestao-1 {
+    h5 {
+      color: white;
+    }
+  }
+
+  .gestao-1 h1 {
+    color: white;
+  }
+
+  .card-promessas {
+    background-color: white !important;
+  }
+
+  .last-card-promessa {
+    h1 {
+      color: black !important;
+    }
+
+    span {
+      color: black !important;
+    }
+  }
+
+  .cards-acreditamos {
+    background-color: white;
+  }
+
+  .acreditamos-title h1 {
+    color: white;
+  }
+
+  .first-pagination .inactive-pagination {
+    color: #aeaeae;
+  }
+
+  .first-pagination .active-pagination {
+    color: white;
+  }
+
+  .gestao-2 {
+    h5 {
+      color: white;
+    }
+
+    h3 {
+      color: white;
+    }
+  }
+
+  .swiper-pagination-equipe .swiper-pagination-bullet {
+    background-color: white;
+  }
+
+  .gestao-2 h1 {
+    color: white;
+  }
+
+  .pagination-internas .second-pagination img {
+    filter: brightness(1000%) !important;
+  }
+
+  .first-pagination img {
+    filter: brightness(1000%) !important;
+  }
+
+  .pagination-last img {
+    filter: brightness(1000%) !important;
+  }
+
+  .gestao-2 span {
+    color: white;
+  }
+
+  .fundos-text h5 {
+    color: white;
+  }
+
+  .fundos-text h1 {
+    color: white;
+  }
+
+  .fundos-text a {
+    background-color: white;
+    color: black;
+  }
+
+  .itens-carrosel-fundos .texts-itens-carrosel-fundos h1 {
+    color: black;
+  }
+
+  .border-fundos-content {
+    border: 1px solid white;
+  }
+
+  .border-fundos-content .ball-fundos-content1 {
+    background-color: white;
+  }
+
+  .border-fundos-content .ball-fundos-content2 {
+    background-color: white;
+  }
+
+  .itens-carrosel-fundos {
+    background-color: white;
+
+    img {
+      filter: brightness(0%);
+    }
+  }
+
+  .itens-carrosel-fundos .texts-itens-carrosel-fundos span {
+    color: black;
+  }
+
+  .fundos-text span {
+    color: white;
+  }
+
+  .historico-fundos-text {
+    h1 {
+      color: white;
+    }
+
+    h5 {
+      color: white;
+    }
+
+    span {
+      color: white;
+    }
+  }
+
+  .cards-beneficios {
+    background-color: white !important;
+
+    img {
+      filter: brightness(0);
+    }
+
+    h1 {
+      color: black;
+    }
+
+    span {
+      color: black;
+    }
+  }
+
+  .last-cards-beneficios {
+    background-color: white !important;
+
+    img {
+      filter: brightness(0);
+    }
+
+    h1 {
+      color: black !important;
+    }
+
+    span {
+      color: black !important;
+    }
+  }
+
+  .resultados-title h1 {
+    color: white;
+  }
+
+  .table thead tr th {
+    color: white;
+  }
+
+  .infos-title h1 {
+    color: white;
+  }
+
+  .infos-resultados {
+    background-color: #1d1d1d;
+  }
+
+  .download-infos h1 {
+    color: black;
+  }
+
+  .download-texts {
+    span {
+      color: black;
+    }
+  }
+
+  .texts-infos-content {
+    span {
+      color: white;
+    }
+
+    h1 {
+      color: white;
+    }
+  }
+
+  .comparativos-table tr th {
+    color: white;
+  }
+
+  .comparativos-title {
+    h1 {
+      color: white;
+    }
+  }
+
+  .comparativos-fundos {
+    background-color: #1d1d1d;
+  }
+
+  .filtros-title h1 {
+    color: white;
+  }
+
+  .accordion .accordion-header button {
+    color: white;
+  }
+
+  .accordion .accordion-header button::after {
+    filter: brightness(1000%);
+  }
+
+  .accordion .accordion-header button:not(.collapsed) {
+    background-color: #1d1d1d;
+  }
+
+  .list-downloads li span {
+    color: white;
+  }
+
+  .list-downloads li a p,
+  .list-downloads li .link-inside p {
+    color: white;
+  }
+
+  .imgs-list-download {
+    img {
+      filter: brightness(1000%);
+    }
+  }
+
+  .contatos-title h1 {
+    color: white;
+  }
+
+  .informacoes-content h1 {
+    color: black;
+  }
+
+  .btns-contato .entrar-contato {
+    background-color: white;
+    color: black;
+  }
+}
+
+.container-with {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+
+  flex: 1 1 0;
+}
+
+.conteudo-1 {
+  width: 50%;
+  background-image: url(../../images/carrosel-home/_Fundo.svg);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding-top: 80px;
+  padding-left: 72px;
+  padding-right: 72px;
+
+  .btn-content-1 {
+    color: white;
+    background-color: #010101 !important;
+    padding: 12px;
+    margin-left: 16px;
+    border-radius: 5px;
+
+    width: fit-content;
+    margin-top: 24px;
+  }
+
+  .conteudo-1-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    z-index: 1;
+    position: relative;
+
+    .card-carrosel-home {
+      background-color: #8529e9;
+    }
+  }
+
+  .conteudo-1-title {
+    z-index: 1;
+    position: relative;
+
+    h2 {
+      color: white;
+      font-size: 24px;
+      font-family: var(--font-text-3);
+      font-weight: 400;
+      line-height: 31.68px;
+      word-wrap: break-word;
+      margin: 0;
+    }
+
+    h3 {
+      margin-bottom: 40px !important;
+      // Com todo o expertise de Pedro Albuquerque
+      color: #dddddd;
+      font-size: 24px;
+      font-family: var(--font-text-3);
+      font-weight: 700;
+      line-height: 31.68px;
+      word-wrap: break-word;
+    }
+  }
+}
+
+.ghost-conteudo-1 {
+  position: fixed;
+  width: 50%;
+  left: 0;
+  height: 100%;
+  flex: 1 1 0;
+  bottom: 0;
+  top: 0;
+
+  background: linear-gradient(
+    0deg,
+    rgba(133, 41, 233, 0.61) 0%,
+    rgba(133, 41, 233, 0.61) 100%
+  );
+}
+
+.ghost-conteudo-2 {
+  position: fixed;
+  right: 0;
+  width: 50%;
+  top: 0;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.51);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.conteudo-2 {
+  padding-top: 80px;
+  padding-right: 72px;
+  padding-left: 72px;
+
+  width: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../images/banners_home_fundo_long_bias.jpg);
+
+  .conteudo-2-main {
+    position: relative;
+    border-bottom: 1px solid var(--grey-scale-02);
+    z-index: 3;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 40px;
+
+    img {
+      width: 173px;
+      padding-bottom: 40px;
+    }
+
+    h1 {
+      // Invista nos fundos da Pandhora
+      color: #fafafa;
+      font-size: 72px;
+      font-family: Bennet Banner Extra Condensed;
+      font-weight: 800;
+      line-height: 86.4px;
+      word-wrap: break-word;
+
+      padding-bottom: 40px;
+    }
+
+    span {
+      // Os fundos da Pandhora são ideais para diversificar sua carteira, unindo segurança e rentabilidade. Você pode investir diretamente conosco através da nossa plataforma.
+      color: #dddddd;
+      font-size: 16px;
+      font-family: Neue Haas Unica W1G;
+      font-weight: 400;
+      line-height: 25.6px;
+      word-wrap: break-word;
+
+      padding-bottom: 40px;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      width: fit-content;
+      height: 100%;
+      justify-content: center;
+      background-color: #8529e9;
+      padding: 16px;
+      gap: 16px;
+
+      border-radius: 4px;
+
+      color: white;
+      font-size: 16px;
+      font-family: Bw Seido Raw;
+      font-weight: 500;
+      line-height: 20px;
+      word-wrap: break-word;
+
+      img {
+        width: 17px;
+        padding: 0;
+      }
+    }
+  }
+}
+
+.corretora-content-2 {
+  position: relative;
+  z-index: 3;
+  padding-top: 40px;
+  h1 {
+    // Invista pela sua corretora:
+    color: #fafafa;
+    font-size: 14px;
+    font-family: Neue Haas Unica W1G;
+    font-weight: 400;
+    line-height: 22.4px;
+    word-wrap: break-word;
+  }
+}
+
+.parceiros-corretora {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-row-gap: 9px;
+  grid-column-gap: 9px;
+  width: 100%;
+  padding-top: 16px;
+  justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .container-with {
+    flex-direction: column;
+    background-color: black !important;
+  }
+
+  .conteudo-1 {
+    width: 100%;
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
+  .conteudo-1::before {
+    content: "";
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 1044px;
+
+    background: linear-gradient(
+      0deg,
+      rgba(133, 41, 233, 0.61) 0%,
+      rgba(133, 41, 233, 0.61) 100%
+    );
+  }
+
+  .ghost-conteudo-1 {
+    display: none;
+  }
+
+  .ghost-conteudo-2 {
+    display: none;
+  }
+
+  .conteudo-2 {
+    padding: 0;
+    width: 100%;
+    // height: 120vh;
+  }
+
+  .conteudo-2-main {
+    padding-top: 80px !important;
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+
+  .conteudo-2 .conteudo-2-main {
+    border-bottom: none;
+  }
+
+  .corretora-content-2 {
+    padding-top: 11px;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-bottom: 80px;
+
+    h1 {
+      border-top: 1px solid var(--grey-scale-02);
+      padding-top: 40px;
+    }
+  }
+
+  .conteudo-2::before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    // height: 120vh;
+    height: 1000px;
+    background: rgba(0, 0, 0, 0.51);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media (max-width: 830px) {
+  .container-with {
+    flex-direction: column-reverse;
+  }
+
+  .conteudo-2-main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .corretora-content-2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .conteudo-2 {
+    height: 100%;
+  }
+
+  .conteudo-1::before {
+    display: none;
+  }
+
+  .conteudo-1 .btn-content-1 {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .conteudo-2::before {
+    display: none;
+  }
+
+  .conteudo-1 .conteudo-1-title h2 {
+    font-size: 22px;
+  }
+
+  .conteudo-1 .conteudo-1-title h3 {
+    font-size: 22px;
+  }
+
+  .conteudo-1 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .conteudo-2-main {
+    h1 {
+      // Invista nos fundos da Pandhora
+      color: #eeeeee;
+      font-size: 48px !important;
+      font-family: Bennet Banner Extra Condensed;
+      font-weight: 800 !important;
+      line-height: 52.8px !important;
+      word-wrap: break-word;
+    }
+
+    a {
+      width: 100% !important;
+    }
+  }
+
+  .conteudo-2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .parceiros-corretora {
+    grid-template-columns: auto auto auto;
+  }
+
+  .ghost-conteudo-2 {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    // height: 134vh;
+    height: 1179.42px;
+  }
+
+  .ghost-conteudo-1 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    // height: 113vh;
+    height: 979.19px;
+    bottom: initial;
+    top: initial;
+    left: initial;
+    z-index: 2;
+  }
+
+  .conteudo-1 {
+    padding-top: 0px;
+  }
+
+  .conteudo-1 .conteudo-1-title {
+    padding-top: 80px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .conteudo-1 .conteudo-1-cards {
+    position: relative;
+    z-index: 3;
+  }
+}
+
+@media (max-width: 400px) {
+  .conteudo-2-main h1 {
+    font-size: 40px !important;
+  }
+}
+
+@media (max-width: 1240px) {
+  .navbar-items {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 1266px) {
+  .footer-quadro {
+    display: none;
+  }
+
+  .quadro-last {
+    display: block !important;
+    padding-bottom: 40px;
+    background-color: #e7e7e7;
+
+    .quadro-last-text {
+      width: 50%;
+    }
+
+    .imgs-quadro-last-text {
+      display: flex;
+      gap: 16px;
+
+      img {
+        width: 146px;
+      }
+    }
+
+    .content-quadro-last {
+      border-radius: 4px;
+      background-color: var(--text-white);
+      display: flex;
+      align-items: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 40px;
+
+      h5 {
+        // Onde Investir
+        color: var(--text-grey-scale-07);
+        font-size: 16px;
+        font-family: var(--font-text-5);
+        font-weight: 400;
+        line-height: 25.6px;
+        word-wrap: break-word;
+        padding-bottom: 24px !important;
+        margin-bottom: 0 !important;
+      }
+
+      h1 {
+        // Abra sua conta e comece
+        color: var(--text-grey-scale-09);
+        font-size: 24px;
+        font-family: var(--font-text-3);
+        font-weight: 400;
+        line-height: 31.68px;
+        word-wrap: break-word;
+
+        span {
+          // a operar hoje pelo app TC
+          color: var(--text-grey-scale-09);
+          font-size: 24px;
+          font-family: var(--font-text-3);
+          font-weight: 700;
+          line-height: 31.68px;
+          word-wrap: break-word;
+        }
+      }
+
+      h4 {
+        // Já é cliente?
+        color: var(--text-grey-scale-09);
+        font-size: 19px;
+        font-family: var(--font-text-3);
+        font-weight: 400;
+        line-height: 26.6px;
+        word-wrap: break-word;
+        padding-bottom: 24px !important;
+        padding-top: 24px !important;
+
+        a {
+          text-decoration: underline;
+        }
+      }
+
+      h3 {
+        color: var(--text-grey-scale-07);
+        font-size: 18px;
+        font-family: var(--font-text-3);
+        font-weight: 400;
+        line-height: 25.2px;
+        word-wrap: break-word;
+        padding-bottom: 16px !important;
+
+        span {
+          color: var(--text-grey-scale-07);
+          font-size: 18px;
+          font-family: var(--font-text-3);
+          font-weight: 700;
+          line-height: 25.2px;
+          word-wrap: break-word;
+        }
+      }
+    }
+
+    .img-quadro-last {
+      width: 55%;
+      display: flex;
+      justify-content: end;
+    }
+  }
+}
+
+@media (max-width: 727px) {
+  .quadro-last {
+    display: none !important;
+  }
+}
+
+// .table tbody tr td {
+//   border: 1px solid red;
+//   width: 2000px !important;
+// }
+
+@media (max-width: 628px) {
+  .navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

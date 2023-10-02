@@ -1,0 +1,36 @@
+h1 {
+    color: $cores-sistema-pretoAzulado;
+    font-family: $fontes-opensans-regular;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.54;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    color: $cores-sistema-pretoAzulado;
+    font-family: $fontes-opensans-regular;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    color: $cores-botoes-tag;
+    font-family: $fontes-opensans-regular;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.79;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.titulo_cotacoes_graficos {
+    color: #666666;
+    line-height: 38px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 15px;
+}

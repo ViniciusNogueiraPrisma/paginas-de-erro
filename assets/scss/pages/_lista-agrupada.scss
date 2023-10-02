@@ -1,0 +1,112 @@
+#page-lista-agrupada {
+    padding: 0  0 60px;
+    #titulo {
+        h1 {
+            text-align: center;
+            margin: 0 0 5px;
+        }
+    }
+
+    .banner-interno{
+        padding: 50px 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #drop-mes {
+        margin: 0 0 55px;
+    }
+}
+#titulo{
+    background: #475164;
+    margin-bottom: 40px;
+    /*padding: 70px;*/
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            color: #fff;
+            font-weight: bold;
+            letter-spacing: 7px;
+            text-transform: uppercase;
+        }
+
+        p{
+            letter-spacing: 1px;
+            font-weight: 600;
+            color: #fff;
+        }
+    }
+}
+/*
+#titulo{
+    background: #475164;
+    margin-bottom: 40px;
+    padding: 70px;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            color: #fff;
+            font-weight: bold;
+            letter-spacing: 7px;
+            text-transform: uppercase;
+        }
+
+        p{
+            letter-spacing: 1px;
+            color: #fff;
+            font-weight: 600;
+        }
+    }
+}*/
+
+@media ( max-width : 575px ) {
+    #page-lista-agrupada {
+        #titulo {
+            h1 {
+                font-size: 22px;
+                //margin: 30px 0 60px;
+            }
+        }
+        #drop-mes {
+            margin: 0 0 35px;
+        }
+    }
+}
+
+@media ( min-width : 576px ) and ( max-width : 767px )  {
+    #page-lista-agrupada {
+        #titulo {
+            h1 {
+                font-size: 22px;
+                //margin: 30px 0 60px;
+            }
+        }
+        #drop-mes {
+            margin: 0 0 35px;
+        }
+    }
+}
+
+@media ( min-width : 768px ) and ( max-width : 991px )  {
+    #page-lista-agrupada {
+        #titulo {
+            h1 {
+                font-size: 22px;
+                //margin: 30px 0 60px;
+            }
+        }
+        #drop-mes {
+            margin: 0 0 35px;
+        }
+    }
+}

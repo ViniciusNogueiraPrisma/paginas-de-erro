@@ -1,0 +1,221 @@
+#fundosLista {
+	.img-fundos {
+		height: 100%;
+		display: flex;
+		align-items: center;
+		margin-bottom: 98px;
+
+		@media (max-width: 767px) {
+			margin-bottom: 30px;
+		}
+
+		.pt52 {
+			padding-top: 52px;
+
+			@media (max-width: 1199px) {
+				padding-top: 42px;
+			}
+
+			@media (max-width: 991px) {
+				padding-top: 30px;
+			}
+
+			@media (max-width: 767px) {
+				padding-top: 0;
+				padding-bottom: 40px;
+			}
+		}
+	}
+
+	.texto {
+		margin-bottom: 16px;
+		text-align: justify;
+
+		&:last-of-type {
+			margin-bottom: 24px;
+		}
+	}
+
+	h5 {
+		color: #da2a31;
+		font-size: 20px;
+		font-weight: bold;
+		margin-bottom: 24px;
+	}
+
+	ul.fundos-lista {
+		li {
+			margin-bottom: 16px;
+			list-style: initial;
+			margin-left: 18px;
+			text-align: justify;
+
+			// &::before {
+			// 	content: "•";
+			// 	position: absolute;
+			// 	left: 0;
+			// 	top: 0;
+			// }
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+#secaoPQInvestir {
+	background: #f8f8f8;
+	margin-top: 24px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+	@media (max-width: 1199px) {
+		padding-bottom: calc(100px - 24px);
+	}
+
+	.card-investir {
+		@media (max-width: 1199px) {
+			margin-bottom: 24px;
+		}
+
+		.card-head {
+			background: #dcddde;
+			display: flex;
+			align-items: center;
+			padding: 8px;
+
+			h5 {
+				color: #da2a31;
+				font-size: 19px;
+				font-weight: bold;
+				margin-bottom: 0;
+			}
+		}
+
+		.card-body {
+			background: #ffffff;
+			border-radius: 8px;
+			height: 309px;
+			margin-top: 24px;
+			padding: 24px 16px;
+
+			@media (max-width: 767px) {
+				height: auto;
+			}
+
+			.content {
+				margin-bottom: 16px;
+
+				&:last-of-type {
+					margin-bottom: 0;
+				}
+
+				h6 {
+					color: #ed1d24;
+					font-size: 18px;
+					font-weight: bold;
+					margin-bottom: 16px;
+				}
+
+				p {
+					color: #4a4a4a;
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+#processosInvestimento {
+	padding-top: 50px;
+	padding-bottom: calc(105px - 55px);
+
+	h2 {
+		color: #da2a31;
+		font-size: 32px;
+		font-weight: bold;
+		margin-bottom: 24px;
+	}
+
+	.texto-bold {
+		color: #333333;
+		font-size: 16px;
+		font-weight: bold;
+		margin-bottom: 48px;
+	}
+
+	.carousel-processos {
+		display: flex;
+
+		.box-content {
+			margin-right: 15px;
+
+			@media (min-width: 1200px) {
+				width: 25%;
+			}
+
+			@media (max-width: 1199px) {
+				margin-bottom: 24px;
+			}
+
+			.content-head {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				margin-bottom: 16px;
+
+				h6 {
+					color: #ed1d24;
+					font-size: 16px;
+					font-weight: bold;
+					margin-bottom: 0;
+				}
+
+				img {
+					@media (max-width: 575px) {
+						margin-left: auto;
+						margin-right: inherit;
+					}
+				}
+			}
+
+			.content-body {
+				p {
+					color: #333333;
+					margin-bottom: 16px;
+
+					&:last-of-type {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+#equipe {
+	h2 {
+		color: #da2a31;
+		font-size: 32px;
+		font-weight: bold;
+		margin-bottom: 24px;
+	}
+
+	.texto-bold {
+		color: #333333;
+		font-size: 16px;
+		font-weight: bold;
+		margin-bottom: 48px;
+	}
+
+	.equipe {
+		padding-top: 88px;
+		padding-bottom: 40px;
+
+		p {
+			color: #333333;
+			margin: 0;
+			padding: 0;
+		}
+	}
+}
